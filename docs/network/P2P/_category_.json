@@ -1,0 +1,8 @@
+{
+  "label": "P2P",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn about Stability's P2P Network."
+  }
+}
