@@ -13,10 +13,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         <div>
-          <img
-            src="https://loremflickr.com/200/200"
-            alt="Cat Placeholder Image"
-          />
+          <img src="/img/stablelogo.png" alt="Stability Logo" />
         </div>
         Begin by setting up your development environment to work with Stability.
       </>
@@ -27,10 +24,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         <div>
-          <img
-            src="https://loremflickr.com/200/200"
-            alt="Cat Placeholder Image"
-          />
+          <img src="/img/stablelogo.png" alt="Stability Logo" />
         </div>
         Learn by example with our quickstart tutorials.
       </>
@@ -41,10 +35,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         <div>
-          <img
-            src="https://loremflickr.com/200/200"
-            alt="Cat Placeholder Image"
-          />
+          <img src="/img/stablelogo.png" alt="Stability Logo" />
         </div>
         We are different. Learn how stability works.
       </>
