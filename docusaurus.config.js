@@ -41,13 +41,15 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/stabilityprotocol/stability-docs/docs",
+          editUrl:
+            "https://github.com/stabilityprotocol/tree/main/stability-docs/docs",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/stabilityprotocol/stability-docs/blog",
+          editUrl:
+            "https://github.com/stabilityprotocol/tree/main/stability-docs/blog",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
