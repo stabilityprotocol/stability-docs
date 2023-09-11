@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/stabilityprotocol/tree/main/stability-docs/docs",
+            "https://github.com/stabilityprotocol/stability-docs/blob/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/stabilityprotocol/tree/main/stability-docs/blog",
+            "https://github.com/stabilityprotocol/stability-docs/blob/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -92,7 +92,7 @@ const config = {
             items: [
               {
                 label: "Start",
-                to: "/docs/intro-to-blockchain",
+                to: "/docs/intro",
               },
             ],
           },
