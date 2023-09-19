@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Stability Docs",
+        title: "Home",
         logo: {
           alt: "Stability Logo",
           src: "img/favicon.ico",
@@ -74,7 +74,7 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Start",
+            label: "Docs",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
@@ -91,7 +91,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Start",
+                label: "Docs",
                 to: "/docs/intro",
               },
             ],
