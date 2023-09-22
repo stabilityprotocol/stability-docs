@@ -118,7 +118,7 @@ module.exports = {
             items: [
               {
                 label: "Main Site",
-                to: "https://stabilityprotocol.com/",
+                href: "https://stabilityprotocol.com/",
               },
               {
                 label: "GitHub",
