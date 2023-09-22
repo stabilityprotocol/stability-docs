@@ -76,6 +76,11 @@ module.exports = {
             position: "left",
           },
           {
+            href: "https://medium.com/stabilitynetwork",
+            label: "Blog",
+            position: "left",
+          },
+          {
             href: "https://stabilityprotocol.com/",
             label: "Main Site",
             position: "right",
