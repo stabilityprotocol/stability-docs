@@ -59,17 +59,26 @@ module.exports = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Home",
+        title: "",
         logo: {
           alt: "Stability Logo",
           src: "img/favicon.ico",
         },
         items: [
           {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            to: "/",
             position: "left",
             label: "Docs",
+          },
+          {
+            to: "/category/getting-started",
+            label: "Learn & Build",
+            position: "left",
+          },
+          {
+            href: "https://stabilityprotocol.com/",
+            label: "Main Site",
+            position: "right",
           },
           {
             href: "https://github.com/stabilityprotocol",
