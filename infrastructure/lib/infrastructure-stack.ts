@@ -53,12 +53,6 @@ export class AmplifyCdkStack extends cdk.Stack {
       autoSubdomainCreationPatterns: ["*", "pr*"],
     });
 
-    const domain2 = app.addDomain("docs.stabilityprotocol.com", {
-      enableAutoSubdomain: true,
-      autoSubdomainCreationPatterns: ["*", "pr*"],
-    });
-
     domain.mapRoot(main);
-    domain2.mapRoot(main);
   }
 }
