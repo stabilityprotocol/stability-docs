@@ -3,6 +3,8 @@ sidebar_position: 0
 slug: /
 ---
 
+# Intro
+
 ![social card for Stability](../static/img/stability-social.jpg)
 
 ## Stability Blockchain
