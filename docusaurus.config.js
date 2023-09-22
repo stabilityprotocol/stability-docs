@@ -108,6 +108,10 @@ module.exports = {
             title: "Community",
             items: [
               {
+                label: "Blog",
+                href: "https://medium.com/stabilitynetwork",
+              },
+              {
                 label: "LinkedIn",
                 href: "https://www.linkedin.com/company/stabilitysolutions/about/",
               },
