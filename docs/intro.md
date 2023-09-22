@@ -3,8 +3,8 @@ sidebar_position: 0
 slug: /
 ---
 
-# Welcome
+![social card for Stability](../static/img/stability-social.jpg)
 
 ## Stability Blockchain
 
-#### Making the most transformational technology of the digital age accessible to everyone
+#### Making the most transformational technology of the digital age accessible to everyone.
