@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Intro to Stability Blockchain
+# Intro to the Stability Network
 
 Stability Network - as the world’s first tokenless public distributed ledger network - ushers in an era of stable and predictable costs, regulatory clarity, and removal of volatility. Our permissionless platform is flexible enough to still preserve privacy thereby empowering businesses to transact and collaborate without restrictions, and enables individual users to participate for free. Notably, the absence of a native cryptocurrency is not abstracted away through highly complex, unsustainable workarounds, but hardcoded into the base layer code.
 
