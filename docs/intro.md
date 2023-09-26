@@ -3,10 +3,8 @@ sidebar_position: 0
 slug: /
 ---
 
-# Intro
+# Welcome to Stability Network Documentation
 
 ![social card for Stability](../static/img/stability-social.jpg)
-
-## Stability Blockchain
 
 #### Making the most transformational technology of the digital age accessible to everyone.
