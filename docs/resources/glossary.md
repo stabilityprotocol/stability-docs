@@ -2,7 +2,8 @@
 sidebar_position: 1
 ---
 
-# Glossary
+# Glossary  
+Terms you should familiarize yourself with.
 
 ## A
 ### account   
