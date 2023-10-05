@@ -11,3 +11,7 @@ _Zero Gas Transactions (ZGT)_ empower validators to process transactions integra
 ## Business Share Revenue (BSR)
 
 _Business Share Revenue_ allows for the option of having transaction fees be split between validators and dApps, providing a financial incentive for developers to build and maintain applications on Stability Chain.
+
+## Decentralized Native Token (DNT)
+
+_Decentralized Native Token_ replaces traditional use of a chain-specific native gas token, allowing users and validators the autonomy and flexibility to select a token of their choosing for transaction processing. The list of available tokens is maintained by a public whitelist contract maintained by network validators.
