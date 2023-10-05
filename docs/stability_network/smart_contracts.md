@@ -49,7 +49,7 @@ In this example, symbolName is the global symbol, you can name your global symbo
 import {symbolA as symbol1, symbolB} from “filename”;
 ```  
 
-_Additional information about the Style Guide can be found [here[(https://docs.soliditylang.org/en/latest/style-guide.html#style-guide)_
+_Additional information about the Style Guide can be found [here](https://docs.soliditylang.org/en/latest/style-guide.html#style-guide)_
 #
 #### Contract Structure
 Contracts can contain declarations as well as inheritances from other contracts. Examples of components that can be declared include State Variables, Functions, Function Modifiers, Events, Errors, Struct Types, and Enum Types. Additional information about component usage can be found [here](https://docs.soliditylang.org/en/latest/structure-of-a-contract.html)
