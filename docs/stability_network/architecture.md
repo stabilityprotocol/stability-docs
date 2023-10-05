@@ -8,37 +8,27 @@ Stability is written in the Rust programming language using the [Substrate](http
 
 The Stability Substrate runtime uses the following pallets:
 
-Consensus
-| _Pallet_ | _Function_ | _Details_ |
-| :—----------------- | :—----------------- | :—----------------- |
-| Aura | Block Authoring | Slot-based round-robin scheduled block creation by a known set of authorities/validator nodes |
-| GRANDPA | Block Finalization | Deterministic finality algorithm that uses the longest chain rule requiring a known weighted authority/validator node set, and works in combination with a block production mechanism |
+_Consensus_
+Aura: Slot-based round-robin scheduled block creation by a known set of authorities/validator nodes
+GRANDPA: Deterministic finality algorithm that uses the longest chain rule requiring a known weighted authority/validator node set, and works in combination with a block production mechanism
 
-Frontier
-| _Pallet_ | _Function_ | _Details_ |
-| :—----------------- | :—----------------- | :—----------------- |
-| pallet-evm | EVM Compatibility | Executes Ethereum contract bytecode for smart contracts that are written in Solidity and are then compiled to EVM bytecode, the core responsibility of the EVM |
-| pallet-ethereum | EVM Compatibility | Stores Ethereum formatted blocks, transaction receipts, and transaction statuses |
+_Frontier_
+pallet-evm: Executes Ethereum contract bytecode for smart contracts that are written in Solidity and are then compiled to EVM bytecode, the core responsibility of the EVM
+pallet-ethereum: Stores Ethereum formatted blocks, transaction receipts, and transaction statuses
 
-Substrate
-| _Pallet_ | _Function_ | _Details_ |
-| :—----------------- | :—----------------- | :—----------------- |
-| session | Validator | Enables session key, length, and rotation management |
-| timestamp | Validator | Enables getting and setting the on-chain time |
-| collective | Validator | Enables a set of account IDs to make collective feelings known through dispatched calls from specialized origins |
+_Substrate_
+session: Enables session key, length, and rotation management
+timestamp: Enables getting and setting the on-chain time
+collective: Enables a set of account IDs to make collective feelings known through dispatched calls from specialized origins
 
-Moonbeam
-| _Pallet_ | _Function_ | _Details_ |
-| :—----------------- | :—----------------- | :—----------------- |
-| precompile-utils | EVM Compatibility | Allows users to read data directly off of the Ethereum JSON-RPC, eliminating the need to use an additional library |
+_Moonbeam_
+precompile-utils: Allows users to read data directly off of the Ethereum JSON-RPC, eliminating the need to use an additional library
 
-Custom
-| _Pallet_ | _Function_ | _Details_ |
-| :—----------------- | :—----------------- | :—----------------- |
-| custom-balances | EVM Compatibility | Replaces Substrate-style accounts and keys with Ethereum-style accounts and keys so that you can use Ethereum libraries and development environments
-| im-online | abc | Enables signed heartbeat transactions to signal if nodes are online in the current era, and resets with each new era |
-| balances | abc | Enables account and balance handling |
-| pallet-dynamic-fee | EVM Compatibility | Simulates the functionality of Ethereum dynamic fee adjustment |
+_Custom_
+custom-balances: Replaces Substrate-style accounts and keys with Ethereum-style accounts and keys so that you can use Ethereum libraries and development environments
+im-online: Enables signed heartbeat transactions to signal if nodes are online in the current era, and resets with each new era
+balances: Enables account and balance handling
+pallet-dynamic-fee: Simulates the functionality of Ethereum dynamic fee adjustment
 
 
 For more information about pallets you can reference the substrate_node API documentation [here](https://paritytech.github.io/polkadot-sdk/master/substrate_node/index.html).
