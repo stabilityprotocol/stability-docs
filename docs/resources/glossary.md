@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Glossary  
-Terms you should familiarize yourself with.
+Terms you should familiarize yourself with
 
 ## A
 ### account   
