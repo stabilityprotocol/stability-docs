@@ -3,7 +3,7 @@ sidebar_position: 0
 slug: /
 ---
 
-# Welcome to Stability's Documentation
+# Welcome to Stability's Documentation 👋
 
 ![social card for Stability](../static/img/stability-social.jpg)
 
