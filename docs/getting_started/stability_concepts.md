@@ -10,7 +10,7 @@ _Zero Gas Transactions (ZGT)_ empower validators to process transactions integra
 
 ## Business Share Revenue (BSR)
 
-_Business Share Revenue_ allows for the option of having transaction fees be split between validators and dApps, providing a financial incentive for developers to build and maintain applications on Stability Chain.
+_Business Share Revenue_ allows developers to claim rewards through setting transaction fees to interact with their dApps. This provides a financial incentive to build and maintain applications on Stability Network. Transaction fees are shared between validators and dApps. 
 
 ## Decentralized Native Token (DNT)
 
