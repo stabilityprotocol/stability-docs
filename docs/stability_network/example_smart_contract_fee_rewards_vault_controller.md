@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # Example Smart Contract: Fee Rewards Vault Controller
 This smart contract can be used to create a dApp to manage and claim fee rewards.
 ``
