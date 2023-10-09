@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Example: Fee Rewards Vault Controller
 This smart contract can be used to create a dApp to manage and claim fee rewards.
-``
+~~~
 // SPDX-License-Identifier: GPL-3.0-only
 pragma solidity >=0.8.3;
 
@@ -21,5 +21,5 @@ interface FeeRewardsVaultController {
     function getValidatorPercentage() external view returns (uint256);
     function setValidatorPercentage(uint256) external returns (bool);
 }
-``
+~~~
 You can copy-paste the code block into a new file with the .sol suffix
