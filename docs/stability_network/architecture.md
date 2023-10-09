@@ -27,10 +27,16 @@ _Moonbeam Pallets_
 - **precompile-utils**: Allows users to read data directly off of the Ethereum JSON-RPC, eliminating the need to use an additional library
   
 _Custom Pallets_
-- **custom-balances**: Replaces Substrate-style accounts and keys with Ethereum-style accounts and keys so that you can use Ethereum libraries and development environments
-- **im-online**: Enables signed heartbeat transactions to signal if nodes are online in the current era, and resets with each new era
-- **balances**: Enables account and balance handling
-- **pallet-dynamic-fee**: Simulates the functionality of Ethereum dynamic fee adjustment
+- **custom-balances**: Enables ``pallet_evm`` to get access to the Decentralized Native Token (DNT) user balance
+- **dnt-fee-controller**: Manages fee payment to validators and dApps, to enable Business Shared Revenue (BSR) 
+- **erc20-manager**: Used to manage memory access as well as control overflow and underflow to modify contract storage to reflect changes in balances, to be able to use ERC-20 for paying fees
+- **fee-rewards-vault**: Enables a space to hold fee rewards, giving support to the ``FeeRewardsVaultController``
+- **root-controller**: Enables privileged calls and origins
+- **sponsored-transactions**: Allows for a third-party to pay the fees of a standard transaction, in the event that Zero Gas Transactions (ZGT) is not used 
+- **token-fee-controller**: Enables Decentralized Native Token (DNT) with a user fee selector and validator fee selector, from the ``SupportedTokensManager``
+- **upgrade-runtime-proposal**: Used to update the runtime
+- **validator-set**: Used to manage validators, such as adding and removing validators
+- **zero-gas-transactions**: Enables non-financial transaction execution
 
 #  
 
