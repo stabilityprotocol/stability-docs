@@ -5,7 +5,7 @@ sidebar_position: 3
 # Smart Contracts
 
 ## What is a Smart Contract?
-A smart contract is a self-executing program stored on a blockchain that runs when defined conditions are met, essentially automating agreements. Stability currently supports smart contracts written in < Solidity 0.8.20 and < Paris/The Merge Upgrade, development is currently in progress to support the Shanghai Fork. Solidity is a high-level programming language that is statically typed and contract-oriented, and is used to implement smart contracts. You can find more information regarding installation [here](https://docs.soliditylang.org/en/latest/installing-solidity.html#).  
+A smart contract is a self-executing program stored on a blockchain that runs when defined conditions are met, essentially automating agreements. Stability currently supports smart contracts written in < Solidity 0.8.20 and < Paris/The Merge Upgrade, development is currently in progress to support the Shanghai Fork. Solidity is a high-level programming language that is statically typed and contract-oriented, and is used to implement smart contracts. You can find more information regarding installation **[here](https://docs.soliditylang.org/en/latest/installing-solidity.html#)**.  
 
 The structure of a smart contract is very similar to classes in object-oriented-programming (OOP), as they contain persistent data in state variables and have functions that can modify these variables. The only way for a smart contract to run/execute is for its defined conditions to have been met.  
 
@@ -27,16 +27,16 @@ The structure of a smart contract is very similar to classes in object-oriented-
 #
 
 ### Development & Testing Frameworks
-- **[OpenZeppelin](https://docs.openzeppelin.com/)
-- **[Truffle](https://trufflesuite.com/)
-- **[Hardhat](https://hardhat.org/docs)
-- **[Brownie for Python](https://eth-brownie.readthedocs.io/en/stable/)
-- **[Waffle for Typescript](https://ethereum-waffle.readthedocs.io/en/latest/)
+- **[OpenZeppelin](https://docs.openzeppelin.com/)**
+- **[Truffle](https://trufflesuite.com/)**
+- **[Hardhat](https://hardhat.org/docs)**
+- **[Brownie for Python](https://eth-brownie.readthedocs.io/en/stable/)**
+- **[Waffle for Typescript](https://ethereum-waffle.readthedocs.io/en/latest/)**
 
 #
 
 ### Contract Structure
-Contracts can contain declarations as well as inheritances from other contracts. Examples of components that can be declared include State Variables, Functions, Function Modifiers, Events, Errors, Struct Types, and Enum Types. Additional information about component usage can be found [here](https://docs.soliditylang.org/en/latest/structure-of-a-contract.html)
+Contracts can contain declarations as well as inheritances from other contracts. Examples of components that can be declared include State Variables, Functions, Function Modifiers, Events, Errors, Struct Types, and Enum Types. Additional information about component usage can be found **[here](https://docs.soliditylang.org/en/latest/structure-of-a-contract.html)**.
 
 #
 
@@ -55,7 +55,7 @@ The first line should include a comment indicating its SPDX License Identifier i
 ```
 // UNLICENSED
 ```
-_Additional information about SPDX license identifiers can be found [here](https://spdx.org/ids-how)._
+_Additional information about SPDX license identifiers can be found **[here](https://spdx.org/ids-how)**._
 
 #
 
@@ -86,7 +86,7 @@ In this example, symbolName is the global symbol, you can name your global symbo
 import {symbolA as symbol1, symbolB} from “filename”;
 ```  
 
-_Additional information about the Style Guide can be found [here](https://docs.soliditylang.org/en/latest/style-guide.html#style-guide)_
+_Additional information about the Style Guide can be found **[here](https://docs.soliditylang.org/en/latest/style-guide.html#style-guide)**._
 
 #
 
