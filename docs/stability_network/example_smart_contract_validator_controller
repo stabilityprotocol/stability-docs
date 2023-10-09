@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Example Smart Contract: Validator Controller
 This smart contract can be used to create a dApp to add validators, remove validators, query the global list of validators, and query the active list of validators.
 
