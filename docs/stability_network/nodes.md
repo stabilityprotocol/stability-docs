@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 # Nodes
-
+Node Types, Node Keys, and Running Nodes
 ## Node Types
 
 There are two main node types on the Stability blockchain, below you will find details about each:
