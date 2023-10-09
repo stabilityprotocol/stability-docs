@@ -15,3 +15,4 @@ interface ValidatorController {
     function getActiveValidatorList() external view returns (address[] memory);
 }
 ``
+You can copy-paste the code block into a new file with the .sol suffix
