@@ -14,15 +14,15 @@ The structure of a smart contract is very similar to classes in object-oriented-
 ## Helpful Resources
 ### Learning/Practicing Solidity: 
 - **[Crypto Zombies](https://cryptozombies.io/)**
-- **[Ethernaut](ethernaut.openzeppelin.com/)**
-- **[0xMonaco](0xmonaco.ctf.paradigm.xyz/)**
-- **[Chainshot](chainshot.com)**
+- **[Ethernaut](https:://ethernaut.openzeppelin.com/)**
+- **[0xMonaco](http://0xmonaco.ctf.paradigm.xyz/)**
+- **[Chainshot](https:://chainshot.com)**
 
 # 
 
 ### Javascript Libraries:
-- **[web3.js](web3js.readthedocs.io)**
-- **[etherjs](docs.ethers.io)**
+- **[web3.js](https://web3js.readthedocs.io)**
+- **[etherjs](https://docs.ethers.io)**
 
 #
 
