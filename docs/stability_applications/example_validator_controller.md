@@ -20,4 +20,4 @@ interface ValidatorController {
 }
 ~~~
 
-You can copy-paste the code block into a new file with the .sol suffix
+_You can copy-paste the code block into a new file with the .sol suffix_

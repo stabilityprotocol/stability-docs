@@ -2,17 +2,13 @@
 sidebar_position: 3
 ---
 
-# Stability Concepts
-Zero Gas Transactions, Business Share Revenue, Decentralized Native Token, and Sponsored Transactions overview.
-#
-_Non-financial Transactions_  
+# Stability Concepts  
+How Stability supports financial and non-financial transactions  
+#  
+Traditional token-based L1 blockchains use token supply, demand, and network traffic to generate a variable fee, commonly referred to as “gas” to conduct a transaction on the network. This variable transaction fee is typically imposed on users who initiate transactions, and at times sponsored by businesses to remove that burden on user adoption. This becomes a growing issue due to its existence as an overhead cost, and its variability negatively affects the integrity of using the technology. We chose to shift the perception of cons outweighing pros when using blockchain technology, by making transaction fees optional and static.  
   
-**_Zero Gas Transactions (ZGT)_** empower validators to process transactions integrated into the blockchain at zero cost. These transactions are not part of the public mempool. Instead, they are added to the validator mempool via an external service, which is responsible for implementing the necessary filters or rules to validate the transactions.  
-#
-_Financial Transactions_  
+When fees are removed, transactions are considered “non-financial” and not subject to regulatory ambiguity. These transactions are part of an external private mempool and are able to be added to a validators mempool through setting the ~~~–zero-gas-tx-pool  <URL>~~~ parameter when configuring the node. WIth this feature, users don’t have to fund and/or have a funded account to use a dApp, easing user onboarding and removing the financial barrier to entry for businesses and users alike.  
   
-**_Business Share Revenue_** allows developers to claim rewards through setting transaction fees to interact with their dApps. This provides a financial incentive to build and maintain applications on Stability Network. Transaction fees are shared between validators and dApps.  
-
-**_Decentralized Native Token_** replaces traditional use of a chain-specific native gas token, allowing users and validators the autonomy and flexibility to select a token of their choosing for transaction processing. The list of available tokens is maintained by a public whitelist contract maintained by network validators.  
-
-**_Sponsored Transactions_** allows for a third-party to pay the fees of a standard transactions, in the event that Zero-Gas-Transactions (ZGT) is not used. This could be used to implement a free trial/freemium access to dApps for new end-users, among other promotional use cases to streamline user onboarding and not require having a funded account/wallet to use the dApp
+When fees are set, transactions are considered “financial” and subsequently subject to regulation, but also consistent and predictable. These fees are statically configured and stored in a reward vault, where it can be claimed and shared between dApp developers and validators. dApp developers are able to control the percentage that is claimable in the ~~~FeeRewardsVaultController~~~. This provides an incentive for validators to support the network, and an incentive for dApp developers to build on the network. These predictable and consistent fees are also able to be sponsored by businesses/dApp developers to support freemium/trial access so that new users are not required to pay to try a dApps functionality.  
+  
+Typically, transaction fees are only able to be paid by the network's native token, due to Stability’s tokenless nature we have decided to support payment using a variety of tokens. The list of available tokens is maintained by a public whitelist contract maintained by network validators. Users and validators in turn have the autonomy and flexibility to select a token of their choosing for transaction processing, from this whitelist.  

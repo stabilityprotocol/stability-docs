@@ -22,4 +22,4 @@ interface FeeRewardsVaultController {
     function setValidatorPercentage(uint256) external returns (bool);
 }
 ~~~
-You can copy-paste the code block into a new file with the .sol suffix
+_You can copy-paste the code block into a new file with the .sol suffix_

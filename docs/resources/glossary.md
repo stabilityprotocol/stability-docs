@@ -57,7 +57,9 @@ is the abbreviation for “Decentralized Native Token and is the Stability Netwo
 ### epoch  
 a unit of time for a certain number of blocks to be completed on a blockchain, this varies per blockchain  
 ### ERC  
-is the abbreviation for “ Ethereum Request for Comment” and is the set of technical standards that are used on the Ethereum blockchain  
+is the abbreviation for “ Ethereum Request for Comment” and is the set of technical standards that are used on the Ethereum blockchain 
+### Ethereum  
+an open-source layer 1 blockchain created by programmer Vitalik Buterin in 2013, with smart contract functionality and Ether as its native currency  
 ### EVM  
 is the abbreviation for “Ethereum Virtual Machine” and is the run-time environment contained within the client software needed to run a node on Ethereum, which subsequently manifests the state of the blockchain and enables smart contract functionality  
 

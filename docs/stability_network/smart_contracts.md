@@ -5,7 +5,7 @@ sidebar_position: 3
 # Smart Contracts
 
 ## What is a Smart Contract?
-A smart contract is a self-executing program stored on a blockchain that runs when defined conditions are met, essentially automating agreements. Stability currently supports smart contracts written in < Solidity 0.8.20 and < Paris/The Merge Upgrade, development is currently in progress to support the Shanghai Fork. Solidity is a high-level programming language that is statically typed and contract-oriented, and is used to implement smart contracts. You can find more information regarding installation **[here](https://docs.soliditylang.org/en/latest/installing-solidity.html#)**.  
+A smart contract is a self-executing program stored on a blockchain that runs when defined conditions are met, essentially automating agreements. Stability currently supports smart contracts written in > Solidity 0.8.20 and < Paris/The Merge Upgrade, development is currently in progress to support the Shanghai Fork. Solidity is a high-level programming language that is statically typed and contract-oriented, and is used to implement smart contracts. You can find more information regarding installation **[here](https://docs.soliditylang.org/en/latest/installing-solidity.html#)**.  
 
 The structure of a smart contract is very similar to classes in object-oriented-programming (OOP), as they contain persistent data in state variables and have functions that can modify these variables. The only way for a smart contract to run/execute is for its defined conditions to have been met.  
 
@@ -64,7 +64,7 @@ _Pragma_ is used to enable compiler features or checks and is local to a source 
 
 _Version Pragma_ is specified so that compilation gets rejected if compiler versions are incompatible, in this case you will want to specify:
 ```
-pragma solidity 0.8.20
+pragma solidity 0.8.3
 ```
 
 _ABI Coder Pragma_ is used to specify between v1 and v2 implementations of the ABI encoder and decoder. As of Solidity 0.6.0, v2 is enabled by default however you can still select v1 if preferred.  
