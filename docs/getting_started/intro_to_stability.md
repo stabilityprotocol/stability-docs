@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 # Intro to Stability  
-Introduction to Stability Network  
+_Introduction to Stability Network_ 
 #  
 At Stability Network, we're pioneering the world’s first tokenless public distributed ledger network, ushering in an era of stable and predictable costs, regulatory clarity, and removal of volatility. Our permissionless platform strikes a balance between flexibility and privacy, empowering businesses to transact and collaborate without constraints while enabling individual users to participate for free.  
   
