@@ -18,13 +18,13 @@ A decentralized application, also referred to as a dApp, is an application that 
 - **permissioned**: access and use is restricted per the discretion of central owners
 
 
-##Components of a dApp
+## Components of a dApp
 - distributed peer-to-peer network to operate on
 - smart contract to define app functionality and serve as the backend
 - frontend user interface that connects to the smart contract
 - wallet to serve as a user accounts to interact with the app
 
-##Development Process
+## Development Process
 1. Define the desired purpose and functionality of your dApp  
 2. Set up your development environment (i.e. using git, vscode, npm, Node.js, Solidity, and Truffle)  
 3. Write your smart contracts (i.e. using Solidity and Truffle)  
