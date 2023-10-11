@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 
 # Stability Concepts  
-How Stability supports financial and non-financial transactions  
+_How Stability supports financial and non-financial transactions_ 
 #  
 Traditional token-based L1 blockchains use token supply, demand, and network traffic to generate a variable fee, commonly referred to as “gas” to conduct a transaction on the network. This variable transaction fee is typically imposed on users who initiate transactions, and at times sponsored by businesses to remove that burden on user adoption. This becomes a growing issue due to its existence as an overhead cost, and its variability negatively affects the integrity of using the technology. We chose to shift the perception of cons outweighing pros when using blockchain technology, by making transaction fees optional and static.  
   
