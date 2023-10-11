@@ -40,4 +40,4 @@ _Custom Pallets_
 
 #  
 
-For more information about pallets you can reference the substrate_node API documentation **[here](https://paritytech.github.io/polkadot-sdk/master/substrate_node/index.html)**.
+For more information about pallets you can reference the ```substrate_node``` API documentation **[here](https://paritytech.github.io/polkadot-sdk/master/substrate_node/index.html)**.
