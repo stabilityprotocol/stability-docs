@@ -12,4 +12,3 @@ This digital ledger is made up of incremental blocks of data. As new data is add
 Cryptocurrency is one of the most common uses of blockchain technology today, where purchases, sales, exchanges, and spend is recorded as transactions in a block on a blockchain. Although this use case has gained popularity, it has also caused unnecessary monetization and subsequent governance and regulation, as every action on-chain is a financial transaction.  
   
 The Stability team has shifted this known paradigm of blockchain technology by making these actions non-financial by default, and rather optional. This brings focus more towards utility as opposed to monetization of transactions, and micro-transactions, further democratizing access to the most transformational technology of the digital age.  
-  
