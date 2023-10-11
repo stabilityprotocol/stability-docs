@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Intro to Blockchain
-Introduction to blockchain technology  
+_Introduction to blockchain technology_  
 #    
 A blockchain is a decentralized, digital ledger distributed among nodes of a peer-to-peer network that can store data of any kind, similar to a conventional database. The difference however, is that the risk of a single point of failure is eliminated as data is not owned and controlled by a central authority. This decentralized architecture has inherent redundancy and ultimate resilience against security and access related vulnerabilities that are commonplace in centralized storage systems.  
   
