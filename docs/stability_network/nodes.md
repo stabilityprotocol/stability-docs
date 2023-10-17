@@ -5,9 +5,11 @@ sidebar_position: 2
 Node Types, Node Keys, and Running Nodes
 ## Node Types
 
-There are two main node types on the Stability blockchain, below you will find details about each:
+There are two main node types on the Stability blockchain, below you will find details about each:  
+  
+**Full Nodes (FNs)** contain the last 256 blocks, and are used to state sync with other nodes. The main difference between Full Nodes and Validator Nodes is that Full Nodes are not able to validate blocks. These nodes are free to access to the general public but have rate limitations.
 
-**Validator Nodes (VNs)** contain the last 256 blocks, run distributed consensus to execute and store transactions on the blockchain and communicate directly with other nodes, and are used to state sync with other nodes
+**Validator Nodes (VNs)** contain the last 256 blocks, run distributed consensus to execute and store transactions on the blockchain and communicate directly with other nodes, and are used to state sync with other nodes. These nodes are available to purchase by license as an Enterprise Node.
 
 **Archive Nodes (ANs)** contain all blocks, beginning from the first block in the blockchains history, and are used to state sync with other nodes
 
