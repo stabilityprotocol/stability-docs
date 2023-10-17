@@ -30,7 +30,7 @@ A decentralized application, also referred to as a dApp, is an application that 
 3. Write your smart contracts (i.e. using Solidity and Truffle)  
 4. Test your smart contracts (i.e. using Truffle)  
 5. Choose a frontend framework to build the UI/UX (i.e. using React)  
-6. Connect frontend and backend (i.e. using web3.js or ethers.js)  
+6. Connect frontend and backend (i.e. using ethers.js)  
 7. Design and develop the UI/UX  
 8. Integrate Metamask or Stability SSO to enable user access  
 9. Test the dApp on Stability Testnet  
