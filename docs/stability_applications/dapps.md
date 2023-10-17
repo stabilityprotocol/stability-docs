@@ -10,10 +10,10 @@ A decentralized application, also referred to as a dApp, is an application that 
 - **decentralized**: no one person or group can have control, deterring censorship
 - **permissionless**: anyone is free to access and use the application
 - **transparency**: data stored on the network is publically available and immutable, providing data integrity
-- **zero downtime**: the entire network of nodes supports serving up your dApps capabilities
+- **zero downtime**: the entire network of nodes supports serving up your dApps capabilities, there is no single point of faiilure
 
 ### Features of traditional applications:
-- **centralized**: one person or group monitors and controls the application and associated data, can be independently targeted by malicious actors
+- **centralized**: one person or group monitors and controls the application and associated data, can be independently targeted by malicious actors and be a single point of failure
 - **unverifiable**: nothing is verifiable, data is selectively presented by persons or groups controlling the application
 - **permissioned**: access and use is restricted per the discretion of central owners
 
