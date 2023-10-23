@@ -6,7 +6,7 @@ sidebar_position: 1
 
 This page is serving as the temporary home of the Stability dApp Marketplace. 
 
-To list your dApp apply [here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)
+To list your dApp apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
 
 ## Live dApps: 
 ## 
