@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Stability Block Explorer
+# Block Explorer
 
 The Stability Block Explorer allows you to inspect, analyze, and interact with real-time data on Stability Chain Mainnet and Testnet. The block explorer can be accessed by the following URL:  
   

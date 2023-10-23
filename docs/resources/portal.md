@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# Stability Portal
+# Portal
 
 The Stability Portal allows users to see their transaction history and balance across networks. It also allows developers to upgrade their full nodes to enterprise validator nodes, or purchase additional transactions for their full node.  
   
