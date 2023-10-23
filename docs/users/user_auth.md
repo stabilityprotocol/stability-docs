@@ -23,18 +23,19 @@ See below for details:
 Click **ADD STABILITY** on the bottom right of the websites footer. This is available on most platforms and applications, if not you can add the network manually as guided below.  
   
 ### Manually add Stability Network to Metamask  
-1. If you have Metamask downloaded, click the Metamask logo in your extensions  
-- If you do not have Metamask downloaded, you can do so **[here](https://metamask.io/download/)**
+**1. If you have Metamask downloaded, click the Metamask logo in your extensions**  
+  
+If you do not have Metamask downloaded, you can do so **[here](https://metamask.io/download/)**
 
-_Metamask can be access by browser, iOS app, or Android app_  
-_Metamask supports the following browsers: Chrome, Firefox, Brave, Edge, and Opera_  
+  _Metamask can be access by browser, iOS app, or Android app_  
+  _Metamask supports the following browsers: Chrome, Firefox, Brave, Edge, and Opera_  
   
-2. Click the Network switcher icon the top left of the window  
-3. Click Add network  
-4. Click Add a network manually at the bottom of the network list  
+**2. Click the Network switcher icon the top left of the window**  
+**3. Click Add network**   
+**4. Click Add a network manually at the bottom of the network list**    
   
-Enter the following information:
-Network Name: **Stability Network**
-New RPC URL: **https://free.stble.io**
-Chain ID: **20180427**
-Currency Symbol: **DNT**
+Enter the following information:  
+Network Name: **Stability Network**  
+New RPC URL: **https://free.stble.io**  
+Chain ID: **20180427**  
+Currency Symbol: **DNT**  

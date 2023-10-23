@@ -66,7 +66,7 @@ module.exports = {
         },
         items: [
           {
-            to: "/category/how_it_works",
+            to: "/category/how-it-works",
             label: "How it works",
             position: "left",
           },
@@ -81,7 +81,7 @@ module.exports = {
             position: "left",
           },
           {
-            href: "/category/resources/marketplace.md",
+            href: "https://docs.stble.io/resources/marketplace.md",
             label: "Marketplace",
             position: "right",
           },

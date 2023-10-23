@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 ---
+
 # Generate a node key and insert it
   
 ## Key Generation
