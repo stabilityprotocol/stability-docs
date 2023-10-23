@@ -6,13 +6,13 @@ sidebar_position: 4
 
 ## 1. Navigate to the Stability Portal [here](https://portal.stble.io/)
   
-![Stability Portal](../static/img/stability-portal.png)  
+![Stability Portal](../static/img/stability-portal.jpg)  
   
 ## 2. Click the **Start Now** button  
   
-![Stability Portal Authentication](../static/img/stability-portal-auth.png)  
+![Stability Portal Authentication](../static/img/stability-portal-auth.jpg)  
 
-## 3. Choose between **Magic.link SSO (Single-Sign-On)** or **Metamask**
+## 3. Choose between Magic.link SSO (Single-Sign-On), Magic.link OTP or Metamask
 
 If you choose Magic.link SSO you can log in with an existing Google account or via email OTP.  
   

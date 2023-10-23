@@ -5,11 +5,11 @@ sidebar_position: 2
 # Check your transaction balance and history
 ## 1. Navigate to the Stability Portal [here](https://portal.stble.io/)
   
-![Stability Portal](../static/img/stability-portal.png)  
+![Stability Portal](../static/img/stability-portal.jpg)  
   
 ## 2. Click the **Start Now** button  
   
-![Stability Portal Authentication](../static/img/stability-portal-auth.png)  
+![Stability Portal Authentication](../static/img/stability-portal-auth.jpg)  
 
 ## 3. Choose between Magic.link SSO (Single-Sign-On), Magic.link OTP (One-Time-Passcode) or Metamask  
   

@@ -8,4 +8,4 @@ The Stability Portal allows users to see their transaction history and balance a
   
 You can access the portal **[here](https://portal.stble.io/)**
   
-![Stability Portal](../static/img/stability-portal.png)
+![Stability Portal](../static/img/stability-portal.jpg)
