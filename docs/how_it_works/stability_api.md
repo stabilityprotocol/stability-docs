@@ -10,6 +10,9 @@ The Stability API allows applications to connect to a Stability node that is par
 The Stability JSON RPC API supports familiar Ethereum/Geth-compatible endpoints in addition to Stability-custom endpoints that have functionality specialized to our ecosystem.  
   
 [Ethereum API Documentation](https://ethereum.github.io/execution-apis/api-documentation/)
+  
+RPC URL: **https://free.stble.io**  
+Chain ID: **20180427**  
 
 ## Stability Custom RPC Endpoints  
 

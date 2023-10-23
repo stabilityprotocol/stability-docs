@@ -81,7 +81,7 @@ module.exports = {
             position: "left",
           },
           {
-            href: "https://docs.stble.io/resources/marketplace.md",
+            to: "/resources/marketplace",
             label: "Marketplace",
             position: "right",
           },
