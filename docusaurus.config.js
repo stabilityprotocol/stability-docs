@@ -137,5 +137,12 @@ module.exports = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        appId: "DLG1823J2P",
+        apiKey: "2e0bc38527ea460d00bab11946a613b6",
+        indexName: "stability",
+        contextualSearch: true,
+        debug: false,
+      }
     }),
 };
