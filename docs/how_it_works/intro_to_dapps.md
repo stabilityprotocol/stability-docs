@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 
 # Intro to dApps
-
+_Introduction to decentralized applications_  
 ## What is a decentralized application?
 A decentralized application, also referred to as a dApp, is an application that operates on a decentralized peer-to-peer network and uses a smart contract as its backend. The frontend can be written in any programming language to make calls to its backend.
 
