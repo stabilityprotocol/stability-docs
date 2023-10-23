@@ -21,14 +21,9 @@ The structure of a smart contract is very similar to classes in object-oriented-
 # 
 
 ### Javascript Libraries:
-- **[ethers.js](https://docs.ethers.io)**
+- **[web3.js](https://web3js.readthedocs.io)**
+- **[etherjs](https://docs.ethers.io)**
 
-#  
-  
-### IDE:
-- **[Remix](https://remix.ethereum.org)**
-- **[VSCode](https://code.visualstudio.com/)**  
-  
 #
 
 ### Development & Testing Frameworks

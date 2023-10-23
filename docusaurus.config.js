@@ -66,19 +66,24 @@ module.exports = {
         },
         items: [
           {
-            to: "/",
-            position: "left",
-            label: "Docs",
-          },
-          {
-            to: "/category/getting-started",
-            label: "Learn & Build",
+            to: "/category/how_it_works",
+            label: "How it works",
             position: "left",
           },
           {
-            href: "https://medium.com/stabilitynetwork",
-            label: "Blog",
+            to: "/category/builders",
+            label: "Builders",
             position: "left",
+          },
+          {
+            to: "/category/users",
+            label: "Users",
+            position: "left",
+          },
+          {
+            href: "/category/resources/marketplace.md",
+            label: "Marketplace",
+            position: "right",
           },
           {
             href: "https://stabilityprotocol.com/",

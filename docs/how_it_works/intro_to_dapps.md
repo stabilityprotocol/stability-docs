@@ -1,7 +1,7 @@
 ---
-sidebar_position: 1
+sidebar_position: 8
 ---
-# Intro to dApps  
+# dApps  
 ## What is a decentralized application?
 A decentralized application, also referred to as a dApp, is an application that operates on a decentralized peer-to-peer network and uses a smart contract as its backend. The frontend can be written in any programming language to make calls to its backend.
 
@@ -10,10 +10,10 @@ A decentralized application, also referred to as a dApp, is an application that 
 - **decentralized**: no one person or group can have control, deterring censorship
 - **permissionless**: anyone is free to access and use the application
 - **transparency**: data stored on the network is publically available and immutable, providing data integrity
-- **zero downtime**: the entire network of nodes supports serving up your dApps capabilities, there is no single point of faiilure
+- **zero downtime**: the entire network of nodes supports serving up your dApps capabilities
 
 ### Features of traditional applications:
-- **centralized**: one person or group monitors and controls the application and associated data, can be independently targeted by malicious actors and be a single point of failure
+- **centralized**: one person or group monitors and controls the application and associated data, can be independently targeted by malicious actors
 - **unverifiable**: nothing is verifiable, data is selectively presented by persons or groups controlling the application
 - **permissioned**: access and use is restricted per the discretion of central owners
 
@@ -30,7 +30,7 @@ A decentralized application, also referred to as a dApp, is an application that 
 3. Write your smart contracts (i.e. using Solidity and Truffle)  
 4. Test your smart contracts (i.e. using Truffle)  
 5. Choose a frontend framework to build the UI/UX (i.e. using React)  
-6. Connect frontend and backend (i.e. using ethers.js)  
+6. Connect frontend and backend (i.e. using web3.js or ethers.js)  
 7. Design and develop the UI/UX  
 8. Integrate Metamask or Stability SSO to enable user access  
 9. Test the dApp on Stability Testnet  
