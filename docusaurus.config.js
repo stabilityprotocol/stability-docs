@@ -139,15 +139,16 @@ module.exports = {
         copyright: `Copyright © ${new Date().getFullYear()} Stability Protocol`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: darkCodeTheme,
+        lightTheme: lightCodeTheme,
       },
       algolia: {
-        appId: "DLG1823J2P",
-        apiKey: "2e0bc38527ea460d00bab11946a613b6",
-        indexName: "stability",
+        appId: "T322JVBTGD",
+        apiKey: "ad18d0d7de1accb5dbbda871e64db2ad",
+        indexName: "stble",
         contextualSearch: true,
         debug: false,
+        insights: true
       }
     }),
 };
