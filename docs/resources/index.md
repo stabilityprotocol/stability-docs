@@ -57,7 +57,7 @@ title: "Resources"
 
   <div class="col">
     <div class="card card-body h-100 d-flex flex-column">
-    <a href="contact_us" class="card-title card-link stretched-link"> <h3>Contact Us</h3></a>
+    <a href="contact" class="card-title card-link stretched-link"> <h3>Contact Us</h3></a>
     <p class="card-text">Contact the Stability team directly or through social networking applications</p>
 </div>
 </div>
