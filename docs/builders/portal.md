@@ -3,19 +3,19 @@ sidebar_position: 4
 ---
 
 # Account Overview
-Check your transaction balance, history, and node upgrade options
+Check your remaining free transactions for the day, history, and node upgrade options
 
-1. Navigate to the Stability Portal **[here](https://account.stabilityprotocol.com)**
+1. Navigate to your Account Overview **[here](https://account.stabilityprotocol.com)**
   
-![Stability Portal](../../static/img/stability-portal.jpg)  
+![Account Overview](../../static/img/stability-portal.jpg)  
   
 2. Click the **Start Now** button  
   
-![Stability Portal Authentication](../../static/img/stability-portal-auth.jpg)  
+![Account Overview Authentication](../../static/img/stability-portal-auth.jpg)  
 
 3. Choose between **Magic.link** (for SSO or emailed OTP access) or **Metamask** 
 
-4. Once you log in, you will be able to see your account dashboard that will show your transaction balance and history.
+4. Once you log in, you will be able to see your Account Overview that will show you how many free transactions you have left for the day, a timer counting down until it resets next, and your transaction history.
   
-_To upgrade your full node to an Enterprise validator node, or buy more batches of transactions for your full node click **Upgrade** in the header. This will redirect you to our Shopify._
+_To upgrade your full node to an Enterprise validator node, or buy more batches of transactions for your full node [contact us directly](../resources/contact.md)_
   
