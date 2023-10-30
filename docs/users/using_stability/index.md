@@ -8,7 +8,7 @@ slug: /using_stability
 <div class="row row-cols-1 row-cols-md-3a g-4">
   <div class="col">
     <div class="card card-body h-100 d-flex flex-column" >
-    <a href="/users/using_stability/free_transactions" class="card-title card-link stretched-link"> <h2>How it works</h2></a>
+    <a href="/users/using_stability/free_transactions" class="card-title card-link stretched-link"> <h2>Free Transactions</h2></a>
     <p class="card-text">Learn about free transactions</p>
 </div>
   </div>
