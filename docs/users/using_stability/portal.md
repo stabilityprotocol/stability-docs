@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 # Account Overview
-1. Click **[here](https://portal.stble.io/)**
+1. Click **[here](https://account.stabilityprotocol.com)**
   
 ![Account Portal](../../../static/img/stability-portal.jpg)  
   

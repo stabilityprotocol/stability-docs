@@ -8,7 +8,7 @@ The Account Overview application allows users to see their transaction history a
 
 _Note: It will also soon allow developers to upgrade their full nodes to enterprise validator nodes, or purchase additional transactions for their full node._
   
- **[Click here to access](https://portal.stble.io/)**  
+ **[Click here to access](https://account.stabilityprotocol.com)**  
 
 Then click _START NOW_ to log in and see your personal account overview
   

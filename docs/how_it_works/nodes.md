@@ -28,3 +28,25 @@ We recommend generating a single SEED for these keys, using it to produce the ne
 
 _To launch a node please visit the **[Builder](../builders/)** guides_
 
+## Hardware Requirements
+
+The most common way to run a validator is on a cloud server, such as AWS or GCP, running Linux, such as Ubuntu 22.04.
+
+### CPU
+- x86-64 compatible
+- Intel Ice Lake, or newer (Xeon or Core series); AMD Zen3, or newer (EPYC or Ryzen)
+- 4 physical cores @ 3.4GHz
+- Simultaneous multithreading disabled (Hyper-Threading on Intel, SMT on AMD)
+- Recommend single-threaded performance over higher cores count. A comparison of single-threaded performance can be found here.
+  
+### Storage
+- NVMe SSD of 1 TB
+
+### Memory
+- 32 GB DDR4 ECC
+
+### System
+- Linux Kernel 5.16 or newer
+
+### Network
+- minimum symmetric networking speed set to 500 Mbit/s (= 62.5 MB/s)

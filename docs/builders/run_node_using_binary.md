@@ -19,20 +19,20 @@ Additionally, you can configure the following flags:
   
 ## Running a Full Node using the binary: 
 ```
-./target/release/stability --base-path /tmp/node --unsafe-rpc-external --rpc-cors all --unsafe-ws-external --prometheus-external --chain=./chain-specs/betanet.json --zero-gas-tx-pool="https://OPTIONAL.com"
+./target/release/stability --base-path /tmp/node --unsafe-rpc-external --rpc-cors all --unsafe-ws-external --prometheus-external --chain=./chain-specs/testnet.json --zero-gas-tx-pool="https://OPTIONAL.com"
 ```  
   
 ## Running a Full Archival Node using the binary:
 ```
-./target/release/stability --base-path /tmp/node --unsafe-rpc-external --rpc-cors all --unsafe-ws-external --prometheus-external --chain=./chain-specs/betanet.json --zero-gas-tx-pool="https://OPTIONAL.com" --pruning archive
+./target/release/stability --base-path /tmp/node --unsafe-rpc-external --rpc-cors all --unsafe-ws-external --prometheus-external --chain=./chain-specs/testnet.json --zero-gas-tx-pool="https://OPTIONAL.com" --pruning archive
 ```  
   
 ## Running a Validator Full Node using the binary: 
 ```
-./target/release/stability --base-path /tmp/node --validator --unsafe-rpc-external --rpc-cors all --unsafe-ws-external --prometheus-external --chain=./chain-specs/betanet.json --zero-gas-tx-pool="https://OPTIONAL.com"
+./target/release/stability --base-path /tmp/node --validator --unsafe-rpc-external --rpc-cors all --unsafe-ws-external --prometheus-external --chain=./chain-specs/testnet.json --zero-gas-tx-pool="https://OPTIONAL.com"
 ```  
   
 ## Running a Validator Archival Node using the binary:
 ```
-./target/release/stability --base-path /tmp/node --validator --unsafe-rpc-external --rpc-cors all --unsafe-ws-external --prometheus-external --chain=./chain-specs/betanet.json --zero-gas-tx-pool="https://OPTIONAL.com" --pruning archive
+./target/release/stability --base-path /tmp/node --validator --unsafe-rpc-external --rpc-cors all --unsafe-ws-external --prometheus-external --chain=./chain-specs/testnet.json --zero-gas-tx-pool="https://OPTIONAL.com" --pruning archive
 ```
