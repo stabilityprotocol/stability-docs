@@ -1,11 +1,15 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# Portal
+# Account Overview
 
-The Stability Portal allows users to see their transaction history and balance across networks. It also allows developers to upgrade their full nodes to enterprise validator nodes, or purchase additional transactions for their full node.  
+The Account Overview application allows users to see their transaction history and balance across networks. 
+
+_Note: It will also soon allow developers to upgrade their full nodes to enterprise validator nodes, or purchase additional transactions for their full node._
   
-You can access the portal **[here](https://portal.stble.io/)**
+ **[Click here to access](https://portal.stble.io/)**  
+
+Then click _START NOW_ to log in and see your personal account overview
   
 ![Stability Portal](../../static/img/stability-portal.jpg)

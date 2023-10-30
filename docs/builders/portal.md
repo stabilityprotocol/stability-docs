@@ -2,7 +2,8 @@
 sidebar_position: 4
 ---
 
-# Check your transaction balance, history, and node upgrade options
+# Account Overview
+Check your transaction balance, history, and node upgrade options
 
 1. Navigate to the Stability Portal **[here](https://portal.stble.io/)**
   

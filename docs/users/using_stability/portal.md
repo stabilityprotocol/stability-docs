@@ -2,14 +2,14 @@
 sidebar_position: 2
 ---
 
-# Check your transaction balance and history
-1. Navigate to the Stability Portal **[here](https://portal.stble.io/)**
+# Account Overview
+1. Click **[here](https://portal.stble.io/)**
   
-![Stability Portal](../../static/img/stability-portal.jpg)  
+![Account Portal](../../../static/img/stability-portal.jpg)  
   
 2. Click the **Start Now** button  
   
-![Stability Portal Authentication](../../static/img/stability-portal-auth.jpg)  
+![Stability Portal Authentication](../../../static/img/stability-portal-auth.jpg)  
 
 3. Choose between **Magic.link** (for SSO or emailed OTP access) or **Metamask** 
   

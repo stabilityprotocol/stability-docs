@@ -39,11 +39,7 @@ module.exports = {
       ({
         docs: {
           routeBasePath: "/",
-          sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/stabilityprotocol/stability-docs/blob/main/",
+          sidebarPath: require.resolve("./sidebars.js")
         },
         blog: false,
         theme: {
@@ -58,6 +54,12 @@ module.exports = {
     ({
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
+      docs: {
+        sidebar: {
+          autoCollapseCategories: true,
+          hideable: true,
+        },
+      },
       navbar: {
         title: "",
         logo: {
@@ -66,23 +68,23 @@ module.exports = {
         },
         items: [
           {
-            to: "/category/how-it-works",
+            to: "/how_it_works",
             label: "How it works",
             position: "left",
           },
           {
-            to: "/category/builders",
-            label: "Builders",
-            position: "left",
-          },
-          {
-            to: "/category/users",
+            to: "/users",
             label: "Users",
             position: "left",
           },
           {
+            to: "/builders",
+            label: "Builders",
+            position: "left",
+          },
+          {
             to: "/resources/marketplace",
-            label: "Marketplace",
+            label: "App Marketplace",
             position: "right",
           },
           {

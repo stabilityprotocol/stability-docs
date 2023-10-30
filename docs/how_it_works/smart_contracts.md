@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
-# Intro to Smart Contracts
+# Smart Contracts
 _Introduction to smart contracts_  
 ## What is a smart contract?
 A smart contract is a self-executing program stored on a blockchain that runs when defined conditions are met, essentially automating agreements. Stability currently supports smart contracts written in > Solidity 0.8.20 and < Paris/The Merge Upgrade, development is currently in progress to support the Shanghai Fork. Solidity is a high-level programming language that is statically typed and contract-oriented, and is used to implement smart contracts. You can find more information regarding installation **[here](https://docs.soliditylang.org/en/latest/installing-solidity.html#)**.  
@@ -12,7 +12,7 @@ The structure of a smart contract is very similar to classes in object-oriented-
 #
 
 ## Helpful Resources
-### Learning/Practicing Solidity: 
+### Learning/Practicing Solidity
 - **[Crypto Zombies](https://cryptozombies.io/)**
 - **[Ethernaut](https:://ethernaut.openzeppelin.com/)**
 - **[0xMonaco](http://0xmonaco.ctf.paradigm.xyz/)**
@@ -20,7 +20,7 @@ The structure of a smart contract is very similar to classes in object-oriented-
 
 # 
 
-### Javascript Libraries:
+### Javascript Libraries
 - **[web3.js](https://web3js.readthedocs.io)**
 - **[etherjs](https://docs.ethers.io)**
 

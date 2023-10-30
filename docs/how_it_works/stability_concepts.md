@@ -8,8 +8,8 @@ _How Stability supports financial and non-financial transactions_
 Traditional token-based L1 blockchains use token supply, demand, and network traffic to generate a variable fee, commonly referred to as “gas” to conduct a transaction on the network. This variable transaction fee is typically imposed on users who initiate transactions, and at times sponsored by businesses to remove that burden on user adoption. This becomes a growing issue due to its existence as an overhead cost, and its variability negatively affects the integrity of using the technology. We chose to shift the perception of cons outweighing pros when using blockchain technology, by making transaction fees zero by default and optionally and static.  
   
 When fees are removed, transactions are considered “non-financial” and not subject to regulatory ambiguity. These transactions are part of an external private mempool and are able to be added to a validators mempool through setting the ```–zero-gas-tx-pool`` parameter when configuring the node. WIth this feature, users don’t have to fund and/or have a funded account to use a dApp, easing user onboarding and removing the financial barrier to entry for businesses and users alike.  
-  
-## 
+
+![Chain Comparison](../../static/img/chain_comparison.png)
 
 **Coming soon:**
 

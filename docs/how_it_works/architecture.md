@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 ---
 
 # Architecture
@@ -8,25 +8,25 @@ Stability is written in the Rust programming language using the **[Substrate](ht
 
 #
 
-### Stability Pallets
+## Stability Pallets
   
-_Consensus Pallets_
+### Consensus Pallets
 - **Aura**: Slot-based round-robin scheduled block creation by a known set of authorities/validator nodes
 - **GRANDPA**: Deterministic finality algorithm that uses the longest chain rule requiring a known weighted authority/validator node set, and works in combination with a block production mechanism
   
-_Frontier Pallets_
+### Frontier Pallets
 - **pallet-evm**: Executes Ethereum contract bytecode for smart contracts that are written in Solidity and are then compiled to EVM bytecode, the core responsibility of the EVM
 - **pallet-ethereum**: Stores Ethereum formatted blocks, transaction receipts, and transaction statuses
   
-_Substrate Pallets_
+### Substrate Pallets
 - **session**: Enables session key, length, and rotation management
 - **timestamp**: Enables getting and setting the on-chain time
 - **collective**: Enables a set of account IDs to make collective feelings known through dispatched calls from specialized origins
   
-_Moonbeam Pallets_
+### Moonbeam Pallets
 - **precompile-utils**: Allows users to read data directly off of the Ethereum JSON-RPC, eliminating the need to use an additional library
   
-_Custom Pallets_
+### Custom Pallets
 - **custom-balances**: Enables ``pallet_evm`` to get access to the Decentralized Native Token (DNT) user balance
 - **dnt-fee-controller**: Manages fee payment to validators and dApps, to enable Business Shared Revenue (BSR) 
 - **erc20-manager**: Used to manage memory access as well as control overflow and underflow to modify contract storage to reflect changes in balances, to be able to use ERC-20 for paying fees

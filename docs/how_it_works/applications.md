@@ -3,7 +3,7 @@ sidebar_position: 5
 toc_max_heading_level: 5
 ---
 
-# Stability Apps
+# Applications
 Stability applications operate on a decentralized peer-to-peer network and use a smart contract as its backend. The frontend can be written in any programming language to make calls to its backend.
 
 ## Features
@@ -13,7 +13,7 @@ _Stability Apps:_
 - **decentralized**: no one person or group can have control, deterring censorship
 - **permissionless**: anyone is free to access and use the application
 - **transparent**: data stored on the network is publically available and immutable, providing data integrity
-- **zero-downtime**: the entire network of nodes supports serving up your dApps capabilities
+- **zero-downtime**: the entire network of nodes supports serving up your apps capabilities
 
 vs.
 
@@ -35,7 +35,7 @@ A smart contract is a self-executing program stored on a blockchain that runs wh
 The structure of a smart contract is very similar to classes in object-oriented-programming (OOP), as they contain persistent data in state variables and have functions that can modify these variables. The only way for a smart contract to run/execute is for its defined conditions to have been met.
 
 ## Development Process
-1. **Define** the desired purpose and functionality of your dApp  
+1. **Define** the desired purpose and functionality of your app 
 2. **Set up** your development environment (i.e. using git, vscode, npm, Node.js, Solidity, and Truffle)  
 3. **Write** your smart contracts (i.e. using Solidity and Truffle)  
 4. **Test** your smart contracts (i.e. using Truffle)  
@@ -48,8 +48,8 @@ The structure of a smart contract is very similar to classes in object-oriented-
 11. **Deploy** to Stability Mainnet (synonymous with a PROD environment)
 12. **Monitor** and **maintain** the application 
 13. **Improve** the application with new features
-14. **List** your application on the Stability App Marketplace
-14. **Promote** your dApp to your specified target market
+14. **List** your application on the **[Stability App Marketplace](../resources/marketplace.md)**
+14. **Promote** your app to your specified target market
 
 ## Helpful Resources
 ### Learning Solidity

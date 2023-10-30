@@ -1,26 +1,16 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Log into Stability platforms and applications
+# Metamask
+To log into apps on Stability you will be presented the below screen to select between Magic or Metamask:
 
-Stability platforms and applications support SSO, Emailed OTP, and Metamask for user authentication.
-
-## SSO
-By default, Google is an available option for Single-Sign-On.
-
-_Upon request, we can provide support for Microsoft, Twitter, Facebook, Apple, Discord, GitHub, LinkedIn, Bitbucket, GitLab, and Twitch._
-
-## Emailed OTP
-You can enter an email address of your choosing to have a OTP (one-time-passcode) sent to. This OTP would be used to authenticate.
-
-## Metamask
-Metamask is also an available option.   
-  
-See below for details:
+![Login Options](../../../static/img/login_options.png)
 
 ### Automatically add Stability Network to Metamask  
-Click **ADD STABILITY** on the bottom right of the websites footer. This is available on most platforms and applications, if not you can add the network manually as guided below.  
+When you select Metamask as the login option, it will launch the browser extension pop up and will automatically add the network to your Metamask. If there are any issues with this, there are a few other ways to add network as outlined below.
+
+One way is to click the **ADD STABILITY** on the bottom right of the websites footer. This is available on most platforms and applications, if not you can add the network manually as guided below.  
   
 ### Manually add Stability Network to Metamask  
 **1. If you have Metamask downloaded, click the Metamask logo in your extensions**  
