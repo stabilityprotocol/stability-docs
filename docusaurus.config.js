@@ -103,12 +103,8 @@ module.exports = {
         style: "dark",
         links: [
           {
-            title: "Resources",
+            title: "Core",
             items: [
-              {
-                label: "Docs",
-                to: "/",
-              },
               {
                 label: "Account Overview",
                 href: "https://account.stabilityprotocol.com/",
