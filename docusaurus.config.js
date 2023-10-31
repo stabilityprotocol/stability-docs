@@ -103,20 +103,12 @@ module.exports = {
         style: "dark",
         links: [
           {
-            title: "Core",
+            title: "Docs",
             items: [
               {
-                label: "Account Overview",
-                href: "https://account.stabilityprotocol.com/",
+                label: "Docs",
+                to: "/",
               },
-              {
-                label: "App Marketplace",
-                href: "https://docs.stabilityprotocol.com/resources/marketplace",
-              },
-              {
-                label: "Block Explorer",
-                href: "https://stability-testnet.blockscout.com/",
-              }
             ],
           },
           {
@@ -132,7 +124,7 @@ module.exports = {
               },
               {
                 label: "X fka Twitter",
-                href: "(https://twitter.com/stabilityinc)",
+                href: "https://medium.com/stabilitynetwork",
               },
               {
                 label: "Discord",
