@@ -5,7 +5,7 @@ slug: /
 
 # Welcome to Stability's Documentation 👋
 
-![Stability Documentation](../static/img/stability-social.jpg)
+![Stability Documentation](../static/img/landing_page.jpg)
 
 <div class="docs-card-container">
 <div class="row row-cols-1 row-cols-md-3a g-4">
