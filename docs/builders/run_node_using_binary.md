@@ -6,7 +6,7 @@ sidebar_position: 2
 
 To run a Stability node, run the following command:
 ```
-./target/release/stability --chain alphanet
+./target/release/stability --chain testnet
 ```
 
 Additionally, you can configure the following flags:

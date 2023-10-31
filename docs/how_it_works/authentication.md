@@ -9,7 +9,7 @@ Stability has built-in user authentication capabilities eliminating the need for
 This is accomplished by leveraging elliptic curve cryptography to generate verifiable proofs of identity and authorization through SSO (single-sign-on) of existing accounts, emailed OTP (one-time-passcode), as well as supporting known web3 wallet services such as **[Metamask](https://metamask.io/)**.
 
 ## SSO & OTP Integration w/ Magic
-_Note: SSO & OTP through our integration with Magic will be available 12/2023_
+**```Note: SSO & OTP through our integration with Magic will be available 12/2023```**
 
 Supported platforms include Web, React Native, Flutter, iOS, Android, and Unity.
 

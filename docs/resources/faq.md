@@ -6,7 +6,7 @@ sidebar_position: 5
 _Frequently asked questions_
 
 ## What is the RPC URL and Chain ID?
-RPC URL: **https://free.stble.io**  
+RPC URL: **https://free.testnet.stabilityprotocol.com**  
 Chain ID: **20180427**  
 
 ## How do you manually add Stability Network to Metamask?
@@ -17,9 +17,9 @@ Chain ID: **20180427**
   
   Enter the following information:  
   Network Name: **Stability Network**  
-  New RPC URL: **https://free.stble.io**  
+  New RPC URL: **https://free.testnet.stabilityprotocol.com**  
   Chain ID: **20180427**  
-  Currency Symbol: **DNT**  
+  Currency Symbol: **FREE**  
 
 ## What happens if I run out of transactions?
 The transaction status will show as 'Failed' 

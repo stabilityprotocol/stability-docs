@@ -19,14 +19,14 @@ To insert the keys into the node, use the followiing script:
    ## $SEED - Seed phrase from which Stability keys are derived
    ## $PATH - Path where you save your node data
   ./target/release/stability key insert  \
-  --keystore-path  $PATH/chains/alphanet/keystore \
+  --keystore-path  $PATH/chains/testnet/keystore \
   --base-path $PATH \
   --scheme ecdsa \
   --suri "$SEED" \
   --key-type aura
 
   ./target/release/stability key insert \
-  --keystore-path  $PATH/chains/alphanet/keystore \
+  --keystore-path  $PATH/chains/testnet/keystore \
   --base-path $PATH \
   --scheme Ed25519 \
   --suri "$SEED" \

@@ -10,7 +10,7 @@ To log into apps on Stability you will be presented the below screen to select b
 
 Magic supports user authentication through Single-Sign-On (SSO) or One-Time-Passcode (OTP).
   
-_Note: SSO & OTP through our integration with Magic will be available 12/2023_
+**```Note: SSO & OTP through our integration with Magic will be available 12/2023```**
 
 ## SSO
 By default, Google is an available option for Single-Sign-On.

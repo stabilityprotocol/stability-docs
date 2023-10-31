@@ -6,7 +6,7 @@ slug: /quickstart
 
 Stability platforms and applications support SSO, Emailed OTP, and Metamask for user authentication.
 
-_Note: SSO & OTP through our integration with Magic will be available 12/2023_
+**```Note: SSO & OTP through our integration with Magic will be available 12/2023```**
 
 <div class="docs-card-container">
 <div class="row row-cols-1 row-cols-md-3a g-4">

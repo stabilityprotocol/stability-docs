@@ -26,6 +26,6 @@ If you do not have Metamask downloaded, you can do so **[here](https://metamask.
   
 Enter the following information:  
 Network Name: **Stability Network**  
-New RPC URL: **https://free.stble.io**  
+New RPC URL: **https://free.testnet.stabilityprotocol.com**  
 Chain ID: **20180427**  
-Currency Symbol: **DNT**  
+Currency Symbol: **FREE**  
