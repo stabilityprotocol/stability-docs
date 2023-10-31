@@ -103,12 +103,24 @@ module.exports = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Resources",
             items: [
               {
                 label: "Docs",
                 to: "/",
               },
+              {
+                label: "Account Overview",
+                href: "https://account.stabilityprotocol.com/",
+              },
+              {
+                label: "App Marketplace",
+                href: "https://docs.stabilityprotocol.com/resources/marketplace",
+              },
+              {
+                label: "Block Explorer",
+                href: "https://stability-testnet.blockscout.com/",
+              }
             ],
           },
           {
@@ -122,6 +134,14 @@ module.exports = {
                 label: "LinkedIn",
                 href: "https://www.linkedin.com/company/stabilitysolutions/about/",
               },
+              {
+                label: "X fka Twitter",
+                href: "(https://twitter.com/stabilityinc)",
+              },
+              {
+                label: "Discord",
+                href: "https://discord.gg/VagSJw6e",
+              }
             ],
           },
           {
