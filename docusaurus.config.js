@@ -11,7 +11,7 @@ module.exports = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://docs.stble.io",
+  url: "https://docs.stabilityprotocol.com/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -46,6 +46,24 @@ module.exports = {
           customCss: require.resolve("./src/css/custom.css"),
         },
       }),
+    ],
+    [
+      'redocusaurus',
+      {
+        // Plugin Options for loading OpenAPI files
+        specs: [
+          {
+            spec: './public-api.yaml',
+            route: '/api/',
+            url: 'https://github.com/stabilityprotocol/stability-docs/blob/main/public-api.yaml',
+          },
+        ],
+        // Theme Options for modifying how redoc renders them
+        theme: {
+          // Change with your site colors
+          primaryColor: '#1890ff',
+        },
+      },
     ],
   ],
 
@@ -83,6 +101,11 @@ module.exports = {
           {
             to: "/builders",
             label: "Builders",
+            position: "left",
+          },
+          {
+            to: "/api",
+            label: "Public API",
             position: "left",
           },
           {
