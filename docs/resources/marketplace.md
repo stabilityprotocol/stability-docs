@@ -42,7 +42,7 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
 ## Coming Soon
 <div class="container text-center">
     <div class="row">
-        <div class="col">
+        <div class="col">            
             <div class="card">
                 <div class="card-body">
                     <h3>Mintify</h3>
@@ -78,7 +78,7 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
                 <div class="card-body">
                     <h3>StableSave</h3>
                     <h6>By: StabilityDevs</h6>
-                    <p class="card-text">Plugin/extension for apps not on Stability Network, to save data onchain</p>
+                    <p class="card-text">Plugin to save data onchain</p>
                 </div>
             </div>
         </div>
@@ -96,7 +96,7 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
                 <div class="card-body">
                     <h3>ContractWizard</h3>
                     <h6>By: StabilityDevs</h6>
-                    <p class="card-text">AI powered plugin that enables easy smart contract deployment </p>
+                    <p class="card-text">AI-powered plugin streamlining smart contract deployment </p>
                 </div>
             </div>
         </div>
@@ -110,9 +110,6 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
                     <h3>Chatlink</h3>
                     <h6>By: StabilityDevs</h6>
                     <p class="card-text">Messaging service</p>
-                    <a href="#" class="card-link">Launch app</a>
-                    <a class="card-text"> | </a>
-                    <a href="#" class="card-link">Read docs</a>
                 </div>
             </div>
         </div>
@@ -136,3 +133,6 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
         </div>
     </div>
 </div>
+
+
+
