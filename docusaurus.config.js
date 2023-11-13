@@ -31,28 +31,7 @@ module.exports = {
     defaultLocale: "en",
     locales: ["en"],
   },
-  plugins: [
-    ...
-    async function customPlugin(context, opts) {
-      return {
-        name: 'custom-plugin',
-        configureWebpack(config, isServer, utils, content) {
-          // Modify internal webpack config. If returned value is an Object, it
-          // will be merged into the final config using webpack-merge;
-          // If the returned value is a function, it will receive the config as the 1st argument and an isServer flag as the 2nd argument.
-          return {
-            plugins: [
-              new webpack.DefinePlugin({
-                // IMPORTANT: To fix debug library‘s bug
-                // {}.DEBUG = namespaces; // SyntaxError: Unexpected token '.'
-                'process.env.DEBUG': 'process.env.DEBUG',
-              })
-            ]
-          }
-        },
-      }
-    }
-  ],
+  
   presets: [
     [
       "classic",
