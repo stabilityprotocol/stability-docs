@@ -29,10 +29,10 @@ export class AmplifyCdkStack extends cdk.Stack {
         frontend: {
           phases: {
             preBuild: {
-              commands: ["npm install"],
+              commands: ["yarn"],
             },
             build: {
-              commands: ["npm run build"], //Command to build the proyect
+              commands: ["yarn build"], //Command to build the proyect
             },
           },
           artifacts: {
