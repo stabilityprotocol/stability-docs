@@ -31,7 +31,7 @@ module.exports = {
     defaultLocale: "en",
     locales: ["en"],
   },
-  
+
   presets: [
     [
       "classic",
@@ -45,6 +45,9 @@ module.exports = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+        gtag: {
+          trackingID: 'G-D29T7B03G4',
+        }
       }),
     ],
     [
