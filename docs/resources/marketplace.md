@@ -10,9 +10,9 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
 
 ## Live
 <div class="container text-center">
-    <div class="row">
+    <div class="row row-cols-1 row-cols-md-3a g-4">
         <div class="col">
-            <div class="card">
+            <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>LinkMe</h3>
                     <h6>By: StabilityDevs</h6>
@@ -24,7 +24,7 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
             </div>
         </div>
         <div class="col">
-            <div class="card">
+            <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>Account Overview</h3>
                     <h6>By: StabilityDevs</h6>
@@ -35,24 +35,27 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
                 </div>
             </div>
         </div>
+        <div class="col">
+            <div class="card card-body h-100 d-flex flex-column">
+                <div class="card-body">
+                    <h3>Mintify</h3>
+                    <h6>By: StabilityDevs</h6>
+                    <p class="card-text">Gasless NFT minting app</p>
+                    <a href="https://mintify.stabilityprotocol.com" class="card-link">Launch app</a>
+                    <a class="card-text"> | </a>
+                    <a href="https://medium.com/stabilitynetwork/mintify-product-demo-for-the-easiest-onboarding-experience-in-blockchain-5754340741a9" class="card-link">Read docs</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
 
 ## Coming Soon
 <div class="container text-center">
-    <div class="row">
-        <div class="col">            
-            <div class="card">
-                <div class="card-body">
-                    <h3>Mintify</h3>
-                    <h6>By: StabilityDevs</h6>
-                    <p class="card-text">Token minting service</p>
-                </div>
-            </div>
-        </div>
+    <div class="row row-cols-1 row-cols-md-3a g-4">
         <div class="col">
-            <div class="card">
+            <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>Tamagatchi</h3>
                     <h6>By: StabilityDevs</h6>
@@ -61,7 +64,7 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
             </div>
         </div>
         <div class="col">
-            <div class="card">
+            <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>MerkCheck</h3>
                     <h6>By: StabilityDevs</h6>
@@ -69,12 +72,8 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="container text-center">
-    <div class="row">
         <div class="col">
-            <div class="card">
+            <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>StableSave</h3>
                     <h6>By: StabilityDevs</h6>
@@ -82,8 +81,12 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
                 </div>
             </div>
         </div>
+    </div>
+</div>
+<div class="container text-center">
+    <div class="row row-cols-1 row-cols-md-3a g-4">
         <div class="col">
-            <div class="card">
+            <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>StableSites</h3>
                     <h6>By: StabilityDevs</h6>
@@ -92,11 +95,20 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
             </div>
         </div>
         <div class="col">
-            <div class="card">
+            <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>ContractWizard</h3>
                     <h6>By: StabilityDevs</h6>
                     <p class="card-text">AI-powered plugin streamlining smart contract deployment </p>
+                </div>
+            </div>
+        </div>
+                <div class="col">
+            <div class="card card-body h-100 d-flex flex-column">
+                <div class="card-body">
+                    <h3>ChainDB</h3>
+                    <h6>By: StabilityDevs</h6>
+                    <p class="card-text">Read/Write database</p>
                 </div>
             </div>
         </div>
@@ -105,7 +117,7 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
 <div class="container text-center">
     <div class="row">
         <div class="col">
-            <div class="card">
+            <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>Chatlink</h3>
                     <h6>By: StabilityDevs</h6>
@@ -114,20 +126,11 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
             </div>
         </div>
         <div class="col">
-            <div class="card">
+            <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>OracleStream</h3>
                     <h6>By: StabilityDevs</h6>
                     <p class="card-text">Oracle/data publication service</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card-body">
-                    <h3>ChainDB</h3>
-                    <h6>By: StabilityDevs</h6>
-                    <p class="card-text">Read/Write database</p>
                 </div>
             </div>
         </div>
