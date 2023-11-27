@@ -11,7 +11,7 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
 ## Live
 <div class="container text-center">
     <div class="row row-cols-1 row-cols-md-3a g-4">
-        <div class="col-sm-6">
+        <div class="col">
             <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>LinkMe</h3>
@@ -23,7 +23,7 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
                 </div>
             </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col">
             <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>Account Overview</h3>
@@ -35,7 +35,7 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
                 </div>
             </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col">
             <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>Mintify</h3>
@@ -54,7 +54,7 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
 ## Coming Soon
 <div class="container text-center">
     <div class="row row-cols-1 row-cols-md-3a g-4">
-        <div class="col-sm-6">
+        <div class="col">
             <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>Tamagatchi</h3>
@@ -63,7 +63,7 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
                 </div>
             </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col">
             <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>MerkCheck</h3>
@@ -72,7 +72,7 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
                 </div>
             </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col">
             <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>StableSave</h3>
@@ -85,7 +85,7 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
 </div>
 <div class="container text-center">
     <div class="row row-cols-1 row-cols-md-3a g-4">
-        <div class="col-sm-6">
+        <div class="col">
             <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>StableSites</h3>
@@ -94,7 +94,7 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
                 </div>
             </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col">
             <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>ContractWizard</h3>
@@ -103,7 +103,7 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
                 </div>
             </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col">
             <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>ChainDB</h3>
@@ -116,7 +116,7 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
 </div>
 <div class="container text-center">
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col">
             <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>Chatlink</h3>
@@ -125,7 +125,7 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
                 </div>
             </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col">
             <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>OracleStream</h3>
