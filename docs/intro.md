@@ -25,7 +25,6 @@ slug: /
     <div class="card card-body h-100 d-flex flex-column">
     <a href="/builders" class="card-title card-link stretched-link"> <h2>Builders</h2></a>
     <p class="card-text">How to build on the network</p>
-    <p class="card-text">A lil test</p>
 </div>
 </div>
 </div>
