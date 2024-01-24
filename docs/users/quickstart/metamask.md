@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ![MetaMask Logo](../../../static/img/metamask.png)
 
-# Adding Stability Network to MetaMask
+# Adding Stability to MetaMask
 
 This guide provides step-by-step instructions on how to add the Stability network to MetaMask.
 
