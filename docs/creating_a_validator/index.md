@@ -1,5 +1,5 @@
 ---
-title: "Builder Guides"
+title: "Creating A Validator"
 ---
 
 <div class="docs-card-container">
@@ -45,11 +45,8 @@ title: "Builder Guides"
 </div>
 </div>
 
-  <div class="col">
-    <div class="card card-body h-100 d-flex flex-column">
-    <a href="/builders/list_app" class="card-title card-link stretched-link"> <h3>List your app in the Marketplace</h3></a>
-    <p class="card-text">Learn how to list your application in the Marketplace</p>
-</div>
+<div class="col">
+    
 </div>
 
 </div>

@@ -102,8 +102,8 @@ module.exports = {
             position: "left",
           },
           {
-            to: "/builders",
-            label: "Builders",
+            to: "/creating_a_validator",
+            label: "Creating a Validator",
             position: "left",
           },
           {
