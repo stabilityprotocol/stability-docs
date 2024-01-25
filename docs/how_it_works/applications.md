@@ -48,7 +48,6 @@ The structure of a smart contract is very similar to classes in object-oriented-
 11. **Deploy** to Stability Mainnet (synonymous with a PROD environment)
 12. **Monitor** and **maintain** the application 
 13. **Improve** the application with new features
-14. **List** your application on the **[Stability App Marketplace](../resources/marketplace.md)**
 14. **Promote** your app to your specified target market
 
 ## Helpful Resources

@@ -10,6 +10,4 @@ sidebar_position: 6
 
 **[Check us out on X (fka Twitter)](https://twitter.com/stabilityinc)**
 
-**[Check us out on Discord](https://discord.gg/VagSJw6e)**
-
 **[Check us out on Medium](https://medium.com/stabilitynetwork)**

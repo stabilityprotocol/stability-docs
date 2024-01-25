@@ -6,18 +6,6 @@ title: "Resources"
 <div class="row row-cols-1 row-cols-md-3a g-4">
 
   <div class="col">
-    <div class="card card-body h-100 d-flex flex-column" >
-    <a href="marketplace" class="card-title card-link stretched-link"> <h3>App Marketplace</h3></a>
-    <p class="card-text">Check out what apps are live and coming soon on the Stability App Marketplace</p>
-</div>
-</div>
-</div>
-</div>
-
-<div class="docs-card-container">
-<div class="row row-cols-1 row-cols-md-3a g-4">
-
-  <div class="col">
     <div class="card card-body h-100 d-flex flex-column">
     <a href="portal" class="card-title card-link stretched-link"> <h3>Account Overview</h3></a>
     <p class="card-text">Check your transaction history and balance</p>

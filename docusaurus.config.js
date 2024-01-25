@@ -112,11 +112,6 @@ module.exports = {
             position: "left",
           },
           {
-            to: "/resources/marketplace",
-            label: "App Marketplace",
-            position: "right",
-          },
-          {
             href: "https://stabilityprotocol.com/",
             label: "Main Site",
             position: "right",

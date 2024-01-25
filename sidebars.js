@@ -42,11 +42,9 @@ const sidebars = {
       collapsed: true,
       link: { type: "doc", id: "how_it_works/index" },
       items: [
-        "how_it_works/intro_to_blockchain",
         "how_it_works/intro_to_stability",
         "how_it_works/stability_concepts",
         "how_it_works/architecture",
-        "how_it_works/smart_contracts",
         "how_it_works/applications",
         "how_it_works/authentication",
         "how_it_works/nodes",
@@ -99,7 +97,6 @@ const sidebars = {
       collapsed: true,
       link: { type: "doc", id: "resources/index" },
       items: [
-        "resources/marketplace",
         "resources/block_explorer",
         "resources/portal",
         "resources/glossary",

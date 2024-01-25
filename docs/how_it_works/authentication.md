@@ -26,5 +26,3 @@ Supported platforms include Web, React Native, iOS, Android, and Unity.
 Supported server-side SDKs include Pure Javascript, Node.js, and Electron.  
   
 More details regarding integrating Metamask can be found **[here](https://docs.metamask.io/wallet/how-to/connect/)**.
-
-_To learn more about how to use our built-in authenticaton to access apps on Stability please reference the **[User](../quickstart)** guides_
