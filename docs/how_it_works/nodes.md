@@ -26,7 +26,7 @@ Stability nodes use 2 keys to operate:
 
 We recommend generating a single SEED for these keys, using it to produce the necessary keys.
 
-_To launch a node please visit the **[Builder](../builders/)** guides_
+_To launch a node please visit the **[Validator](../creating_a_validator/)** guides_
 
 ## Hardware Requirements
 
