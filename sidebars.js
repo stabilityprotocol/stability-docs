@@ -62,11 +62,11 @@ const sidebars = {
       items: [
         {
           type: "category",
-          label: "Quickstart",
-          link: { type: "doc", id: "users/quickstart/index" },
+          label: "Connect To Stability",
+          link: { type: "doc", id: "users/connect_to_stability/index" },
           collapsible: true,
           collapsed: true,
-          items: ["users/quickstart/magic", "users/quickstart/metamask"],
+          items: ["users/connect_to_stability/magic", "users/connect_to_stability/metamask"],
         },
         {
           type: "category",
