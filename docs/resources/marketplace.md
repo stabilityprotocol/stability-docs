@@ -4,11 +4,8 @@ sidebar_position: 1
 
 # Marketplace
 
-_**Note**_: This page is serving as the temporary home of the Stability App Marketplace
-
-To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
-
 ## Live
+
 <div class="container text-center">
     <div class="row row-cols-1 row-cols-md-3a g-4">
         <div class="col">
@@ -48,94 +45,25 @@ To list your app, apply **[here](https://forms.gle/oQbHUj6SJ1qxfFAZ7)**
             </div>
         </div>
     </div>
-</div>
-
-
-## Coming Soon
-<div class="container text-center">
-    <div class="row row-cols-1 row-cols-md-3a g-4">
-        <div class="col">
-            <div class="card card-body h-100 d-flex flex-column">
-                <div class="card-body">
-                    <h3>Tamagatchi</h3>
-                    <h6>By: StabilityDevs</h6>
-                    <p class="card-text">Virtual pet simulation</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card card-body h-100 d-flex flex-column">
-                <div class="card-body">
-                    <h3>MerkCheck</h3>
-                    <h6>By: StabilityDevs</h6>
-                    <p class="card-text">Verification service</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card card-body h-100 d-flex flex-column">
-                <div class="card-body">
-                    <h3>StableSave</h3>
-                    <h6>By: StabilityDevs</h6>
-                    <p class="card-text">Plugin to save data onchain</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container text-center">
-    <div class="row row-cols-1 row-cols-md-3a g-4">
-        <div class="col">
-            <div class="card card-body h-100 d-flex flex-column">
-                <div class="card-body">
-                    <h3>StableSites</h3>
-                    <h6>By: StabilityDevs</h6>
-                    <p class="card-text">Domain hosting service (ENS)</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card card-body h-100 d-flex flex-column">
-                <div class="card-body">
-                    <h3>ContractWizard</h3>
-                    <h6>By: StabilityDevs</h6>
-                    <p class="card-text">AI-powered plugin streamlining smart contract deployment </p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card card-body h-100 d-flex flex-column">
-                <div class="card-body">
-                    <h3>ChainDB</h3>
-                    <h6>By: StabilityDevs</h6>
-                    <p class="card-text">Read/Write database</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container text-center">
-    <div class="row">
-        <div class="col">
-            <div class="card card-body h-100 d-flex flex-column">
-                <div class="card-body">
-                    <h3>Chatlink</h3>
-                    <h6>By: StabilityDevs</h6>
-                    <p class="card-text">Messaging service</p>
-                </div>
-            </div>
-        </div>
+     <div class="row row-cols-1 row-cols-md-3a g-4">
         <div class="col">
             <div class="card card-body h-100 d-flex flex-column">
                 <div class="card-body">
                     <h3>OracleStream</h3>
                     <h6>By: StabilityDevs</h6>
                     <p class="card-text">Oracle/data publication service</p>
+                    <a href="https://oracles.stabilityprotocol.com" class="card-link">Launch app</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card card-body h-100 d-flex flex-column">
+                <div class="card-body">
+                    <h3>PayNow</h3>
+                    <h6>By: StabilityDevs</h6>
+                    <p class="card-text">PayNow is a simple payment app that allows you to send and receive payments</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
-
