@@ -31,9 +31,9 @@ const sidebars = {
 
   tutorialSidebar: [
     // {
-      // type: "html"
-      // value: "Start",
-      // className: "sidebar-title",
+    // type: "html"
+    // value: "Start",
+    // className: "sidebar-title",
     // },
     {
       type: "category",
@@ -102,6 +102,7 @@ const sidebars = {
         "resources/glossary",
         "resources/contact",
         "resources/faq",
+        "resources/marketplace",
       ],
     }
   ]
