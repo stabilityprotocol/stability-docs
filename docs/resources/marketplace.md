@@ -62,6 +62,7 @@ sidebar_position: 1
                     <h3>PayNow</h3>
                     <h6>By: StabilityDevs</h6>
                     <p class="card-text">PayNow is a simple payment app that allows you to send and receive payments</p>
+                    <a href="https://paynow.stabilityprotocol.com" class="card-link">Launch app</a>
                 </div>
             </div>
         </div>
