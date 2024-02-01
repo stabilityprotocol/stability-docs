@@ -28,7 +28,7 @@ sidebar_position: 1
                     <p class="card-text">Account dashboard to track free transaction balance and history</p>
                     <a href="https://account.stabilityprotocol.com" class="card-link">Launch app</a>
                     <a class="card-text"> | </a>
-                    <a href="./portal" class="card-link">Read docs</a>
+                    <a href="../users/using_stability/portal" class="card-link">Read docs</a>
                 </div>
             </div>
         </div>
