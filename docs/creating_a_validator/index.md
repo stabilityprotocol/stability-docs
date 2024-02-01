@@ -9,7 +9,7 @@ title: "Creating A Validator"
             <a href="/creating_a_validator/generate_and_insert_node_key" class="card-title card-link stretched-link">
                <h3>Node keys</h3>
             </a>
-            <p class="card-text">Learn how to generate node keys and how to insert them into your node</p>
+            <p class="card-text">Learn how to generate node keys</p>
          </div>
       </div>
       <div class="col">
