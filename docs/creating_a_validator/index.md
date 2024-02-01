@@ -25,6 +25,7 @@ title: "Creating A Validator"
             <a href="/creating_a_validator/run_node_using_docker" class="card-title card-link stretched-link">
                <h3>Run a node using Docker</h3>
             </a>
+            <p class="card-text">Recommended option</p>
             <p class="card-text">Learn how to run a node using Docker</p>
          </div>
       </div>
