@@ -72,7 +72,7 @@ const sidebars = {
           link: { type: "doc", id: "users/using_stability/index" },
           collapsible: true,
           collapsed: true,
-          items: ["users/using_stability/free_transactions", "users/using_stability/portal", "users/using_stability/block_explorer"],
+          items: ["users/using_stability/transactions", "users/using_stability/portal", "users/using_stability/block_explorer"],
         }
       ],
     },
@@ -86,8 +86,6 @@ const sidebars = {
         "creating_a_validator/generate_and_insert_node_key",
         "creating_a_validator/run_node_using_binary",
         "creating_a_validator/run_node_using_docker",
-        "creating_a_validator/portal",
-        "creating_a_validator/sponsored_transactions",
       ],
     },
     {
@@ -98,7 +96,6 @@ const sidebars = {
       link: { type: "doc", id: "resources/index" },
       items: [
         "resources/block_explorer",
-        "resources/portal",
         "resources/glossary",
         "resources/contact",
         "resources/faq",
