@@ -14,7 +14,7 @@ title: "User Guides"
 
   <div class="col">
     <div class="card card-body h-100 d-flex flex-column">
-    <a href="/using_stability" class="card-title card-link stretched-link"> <h2>Using Stability</h2></a>
+    <a href="/users/using_stability/transactions" class="card-title card-link stretched-link"> <h2>Using Stability</h2></a>
     <p class="card-text">What you can do on Stability</p>
 </div>
 </div>

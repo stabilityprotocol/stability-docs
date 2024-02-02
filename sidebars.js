@@ -58,22 +58,7 @@ const sidebars = {
       collapsed: true,
       link: { type: "doc", id: "users/index" },
       items: [
-        {
-          type: "category",
-          label: "Connect To Stability",
-          link: { type: "doc", id: "users/connect_to_stability/index" },
-          collapsible: true,
-          collapsed: true,
-          items: ["users/connect_to_stability/magic", "users/connect_to_stability/metamask"],
-        },
-        {
-          type: "category",
-          label: "Using Stability",
-          link: { type: "doc", id: "users/using_stability/index" },
-          collapsible: true,
-          collapsed: true,
-          items: ["users/using_stability/transactions", "users/using_stability/portal", "users/using_stability/block_explorer"],
-        }
+        "users/connect", "users/using_stability/transactions", "users/using_stability/portal", "users/using_stability/block_explorer",
       ],
     },
     {
