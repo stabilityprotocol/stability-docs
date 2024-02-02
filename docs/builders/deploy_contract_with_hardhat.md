@@ -19,7 +19,7 @@ This tutorial teaches how to deploy an ERC20 Smart Contract on the Stabilityprot
 
 ### More Information
 
-The complete code of this tutorial can be found at this [link](https://github.com/stabilityprotocol/tutorial-solidity/tree/main/deploy-using-hardhat)
+The complete code of this tutorial can be found at this [link](https://github.com/stabilityprotocol/tutorials/tree/main/deploy-using-hardhat)
 
 ## 2. Setting Up the Development Environment
 
