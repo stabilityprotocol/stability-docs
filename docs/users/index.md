@@ -7,7 +7,7 @@ title: "User Guides"
   
   <div class="col">
     <div class="card card-body h-100 d-flex flex-column" >
-    <a href="/connect_to_stability" class="card-title card-link stretched-link"> <h2>Connect to Stability</h2></a>
+    <a href="/users/connect" class="card-title card-link stretched-link"> <h2>Connect to Stability</h2></a>
     <p class="card-text">How to access applications on Stability</p>
 </div>
   </div>

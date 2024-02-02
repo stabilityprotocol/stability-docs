@@ -3,6 +3,7 @@ title: "How it Works"
 ---
 
 <React.Fragment>
+
   <div className="docs-card-container">
       <h2>Understanding Stability</h2>
       <div className="row row-cols-1 row-cols-md-3 g-4">
@@ -50,14 +51,6 @@ title: "How it Works"
   <div className="docs-card-container">
       <h2>Advanced Topics</h2>
       <div className="row row-cols-1 row-cols-md-3 g-4">
-          <div className="col">
-              <div className="card h-100">
-                  <div className="card-body">
-                      <h3 className="card-title"><a href="/how_it_works/authentication">Authentication</a></h3>
-                      <p className="card-text">Learn about built-in user authentication capabilities</p>
-                  </div>
-              </div>
-          </div>
           <div className="col">
               <div className="card h-100">
                   <div className="card-body">
