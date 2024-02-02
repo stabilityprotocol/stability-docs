@@ -31,9 +31,7 @@ module.exports = {
     defaultLocale: "en",
     locales: ["en"],
   },
-  plugins: [
-    'docusaurus-plugin-sass',
-  ],
+  plugins: ["docusaurus-plugin-sass"],
   presets: [
     [
       "classic",
@@ -41,32 +39,32 @@ module.exports = {
       ({
         docs: {
           routeBasePath: "/",
-          sidebarPath: require.resolve("./sidebars.js")
+          sidebarPath: require.resolve("./sidebars.js"),
         },
         blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
         gtag: {
-          trackingID: 'G-D29T7B03G4',
-        }
+          trackingID: "G-D29T7B03G4",
+        },
       }),
     ],
     [
-      'redocusaurus',
+      "redocusaurus",
       {
         // Plugin Options for loading OpenAPI files
         specs: [
           {
-            spec: './public-api.yaml',
-            route: '/api/',
-            url: 'https://github.com/stabilityprotocol/stability-docs/blob/main/public-api.yaml',
+            spec: "./public-api.yaml",
+            route: "/api/",
+            url: "https://github.com/stabilityprotocol/stability-docs/blob/main/public-api.yaml",
           },
         ],
         // Theme Options for modifying how redoc renders them
         theme: {
           // Change with your site colors
-          primaryColor: '#1890ff',
+          primaryColor: "#1890ff",
         },
       },
     ],
@@ -106,6 +104,11 @@ module.exports = {
           {
             to: "/creating_a_validator",
             label: "Creating a Validator",
+            position: "left",
+          },
+          {
+            to: "/builders",
+            label: "Builders",
             position: "left",
           },
           {
@@ -155,7 +158,7 @@ module.exports = {
               {
                 label: "Discord",
                 href: "https://discord.gg/VagSJw6e",
-              }
+              },
             ],
           },
           {
@@ -184,7 +187,7 @@ module.exports = {
         indexName: "stble",
         contextualSearch: true,
         debug: false,
-        insights: true
-      }
+        insights: true,
+      },
     }),
 };

@@ -64,7 +64,10 @@ const sidebars = {
           link: { type: "doc", id: "users/connect_to_stability/index" },
           collapsible: true,
           collapsed: true,
-          items: ["users/connect_to_stability/magic", "users/connect_to_stability/metamask"],
+          items: [
+            "users/connect_to_stability/magic",
+            "users/connect_to_stability/metamask",
+          ],
         },
         {
           type: "category",
@@ -72,8 +75,12 @@ const sidebars = {
           link: { type: "doc", id: "users/using_stability/index" },
           collapsible: true,
           collapsed: true,
-          items: ["users/using_stability/transactions", "users/using_stability/portal", "users/using_stability/block_explorer"],
-        }
+          items: [
+            "users/using_stability/transactions",
+            "users/using_stability/portal",
+            "users/using_stability/block_explorer",
+          ],
+        },
       ],
     },
     {
@@ -90,6 +97,14 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Builders",
+      collapsible: true,
+      collapsed: true,
+      link: { type: "doc", id: "builders/index" },
+      items: ["builders/deploy_contract_with_hardhat"],
+    },
+    {
+      type: "category",
       label: "Resources",
       collapsible: true,
       collapsed: true,
@@ -101,9 +116,8 @@ const sidebars = {
         "resources/faq",
         "resources/marketplace",
       ],
-    }
-  ]
-
+    },
+  ],
 };
 
 module.exports = sidebars;
