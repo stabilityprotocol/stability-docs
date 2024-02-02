@@ -76,6 +76,7 @@ async function getBlockNumber() {
   const blockNumber = Number(await client.getBlockNumber());
   return blockNumber
 } 
+
 getBlockNumber().then(blockNumber => {
   console.log('The Current Stability Block Number is', blockNumber);
 });
