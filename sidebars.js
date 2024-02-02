@@ -81,7 +81,9 @@ const sidebars = {
       collapsible: true,
       collapsed: true,
       link: { type: "doc", id: "builders/index" },
-      items: ["builders/deploy_contract_with_hardhat"],
+      items: ["builders/deploy_contract_with_hardhat",
+      "builders/what_is_different",
+      "builders/viem_setup_example",],
     },
     {
       type: "category",

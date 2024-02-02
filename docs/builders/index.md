@@ -20,5 +20,13 @@ title: "Builders"
             <p class="card-text">Learn how to code without a native token</p>
          </div>
       </div>
+      <div class="col">
+         <div class="card card-body h-100 d-flex flex-column" >
+            <a href="/builders/viem_setup_example" class="card-title card-link stretched-link">
+               <h3>Viem Setup Example using Typescript</h3>
+            </a>
+            <p class="card-text">Learn how to connect with Viem to Stability</p>
+         </div>
+      </div>
    </div>
 </div>
