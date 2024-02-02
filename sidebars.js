@@ -46,7 +46,6 @@ const sidebars = {
         "how_it_works/stability_concepts",
         "how_it_works/architecture",
         "how_it_works/applications",
-        "how_it_works/authentication",
         "how_it_works/nodes",
         "how_it_works/api",
       ],
