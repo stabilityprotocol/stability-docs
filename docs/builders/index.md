@@ -7,9 +7,17 @@ title: "Builders"
       <div class="col">
          <div class="card card-body h-100 d-flex flex-column" >
             <a href="/builders/deploy_contract_with_hardhat" class="card-title card-link stretched-link">
-               <h3>Deploy smartcontract using hardhat </h3>
+               <h3>Deploy A Smart Contract Using Hardhat </h3>
             </a>
-            <p class="card-text">Learn how to deploy a contract using hardhat</p>
+            <p class="card-text">Learn how to deploy a contract using Hardhat</p>
+         </div>
+      </div>
+      <div class="col">
+         <div class="card card-body h-100 d-flex flex-column" >
+            <a href="/builders/what_is_different" class="card-title card-link stretched-link">
+               <h3>What Is Different</h3>
+            </a>
+            <p class="card-text">Learn how to code without a native token</p>
          </div>
       </div>
    </div>
