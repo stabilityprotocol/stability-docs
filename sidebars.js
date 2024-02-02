@@ -63,14 +63,14 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Creating a Validator",
+      label: "Nodes",
       collapsible: true,
       collapsed: true,
       link: { type: "doc", id: "creating_a_validator/index" },
       items: [
-        "creating_a_validator/generate_and_insert_node_key",
         "creating_a_validator/run_node_using_binary",
         "creating_a_validator/run_node_using_docker",
+        "creating_a_validator/generate_and_insert_node_key",
       ],
     },
     {
