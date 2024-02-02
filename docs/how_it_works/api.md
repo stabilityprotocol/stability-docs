@@ -12,26 +12,35 @@ The Stability JSON RPC API supports familiar Ethereum/Geth-compatible endpoints 
 
 [Ethereum API Documentation](https://ethereum.github.io/execution-apis/api-documentation/)
 
-RPC URL: **https://free.testnet.stabilityprotocol.com**  
-Chain ID: **20180427**
+## EVM RPC Endpoints
+
+### Mainnet
+
+- RPC URL: **https://free.stabilityprotocol.com**
+- Chain ID: **101010**
+
+### Testnet
+
+- RPC URL: **https://free.testnet.stabilityprotocol.com**
+- Chain ID: **20180427**
 
 ## Stability Custom RPC Endpoints
 
 > `stability_getValidatorList`
 
-This endpoint retrieves the current list of validators on the network, which can be also referred to as the active validator set
+Obtain the current validator set, showcasing the active validators within the network.
 
 #
 
 > `stability_getSupportedTokens`
 
-This endpoint retrieves the list of tokens supported by the network for payment of transaction fees. These tokens can also be mined as rewards in certain configurations.
+Fetch a list of network-supported tokens eligible for transaction fee payments and potential mining rewards under certain conditions.
 
 #
 
 > `stability_sendSponsoredTransaction`
 
-This endpoint submits a sponsored transaction to the mempool.
+Submit a transaction that is sponsored to the network's mempool, facilitating transactions without direct fee payment by the sender.
 
 ## Example
 
@@ -44,3 +53,5 @@ $ curl 'https://free.testnet.stabilityprotocol.com/' \
 
 {"jsonrpc":"2.0","result":{"code":200,"value":["0xdc2b93f3291030f3f7a6d9363ac37757f7ad5c43"]},"id":1}
 ```
+
+This snippet demonstrates how to query the supported tokens using the stability_getSupportedTokens endpoint, showcasing the API's straightforward and efficient interaction model.
