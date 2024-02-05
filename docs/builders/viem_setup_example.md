@@ -42,6 +42,7 @@ npm i viem ts-node
 ## 5. Create a Test.tsx File 
 Next, create a TypeScript file named Test.tsx and paste the following code. This script configures Viem to connect to the Stability Testnet, allowing you to interact with the blockchain. In this example, we will retrieve the current block number.
 ```bash
+
 import { createPublicClient, http, defineChain } from 'viem'
 
 const stbleTestnet = defineChain({
