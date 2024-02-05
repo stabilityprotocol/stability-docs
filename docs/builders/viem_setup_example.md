@@ -8,6 +8,16 @@ sidebar_position: 3
 
 This guide will demonstrate the steps to install Viem and configure the framework for interacting with the Stability blockchain. Viem offers a streamlined approach for Ethereum developers looking to engage with Stability, ensuring a smooth development experience.
 
+### Prerequisites
+
+- Basic knowledge of programming, blockchain, and TypeScript.
+- Node.js and NPM installed on your system.
+- A text editor or IDE for development.
+
+### More Information
+
+The complete code of this tutorial can be found at this [link](https://github.com/stabilityprotocol/tutorials/tree/main/setup-viem-environment)
+
 ## 2. About Viem
 
 Viem is a TypeScript interface tailored for interacting with web3, designed to provide developers with low-level, stateless primitives for seamless interaction with blockchains. Key focuses of Viem include:
