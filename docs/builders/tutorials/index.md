@@ -6,6 +6,14 @@ title: "Tutorials"
    <div class="row row-cols-1 row-cols-md-3a g-4">
       <div class="col">
          <div class="card card-body h-100 d-flex flex-column" >
+            <a href="/builders/tutorials/enviroment" class="card-title card-link stretched-link">
+               <h3>Enviroment</h3>
+            </a>
+            <p class="card-text">Setup your enviroment</p>
+         </div>
+      </div>
+      <div class="col">
+         <div class="card card-body h-100 d-flex flex-column" >
             <a href="/builders/tutorials/deploy_contract_with_hardhat" class="card-title card-link stretched-link">
                <h3>Deploy A Smart Contract Using Hardhat </h3>
             </a>
