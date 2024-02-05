@@ -89,7 +89,10 @@ const sidebars = {
           },
           type: "category",
           label: "Tutorials",
-          items: ["builders/tutorials/deploy_contract_with_hardhat"],
+          items: [
+            "builders/tutorials/deploy_contract_with_hardhat",
+            "builders/tutorials/deploy_contract_with_remix",
+          ],
         },
         "builders/what_is_different",
         "builders/viem_setup_example",
