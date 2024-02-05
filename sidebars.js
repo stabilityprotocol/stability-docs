@@ -108,10 +108,11 @@ const sidebars = {
       link: { type: "doc", id: "resources/index" },
       items: [
         "resources/block_explorer",
-        "resources/glossary",
-        "resources/contact",
+        "resources/audits",
         "resources/faq",
         "resources/marketplace",
+        "resources/contact",
+        "resources/glossary",
       ],
     },
   ],
