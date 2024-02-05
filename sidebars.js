@@ -90,6 +90,7 @@ const sidebars = {
           type: "category",
           label: "Tutorials",
           items: [
+            "builders/tutorials/enviroment",
             "builders/tutorials/deploy_contract_with_hardhat",
             "builders/tutorials/deploy_contract_with_remix",
           ],

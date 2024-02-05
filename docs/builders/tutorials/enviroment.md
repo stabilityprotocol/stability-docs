@@ -1,5 +1,5 @@
 ---
-title: "Enviroment"
+title: "Setup Enviroment"
 ---
 
 <div class="docs-card-container">
