@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Deploy Contract Using Hardhat on the Stability Network
+# Quick start - Deploy Contract Using Hardhat
 
 ## 1. Introduction
 
@@ -14,20 +14,32 @@ This tutorial teaches how to deploy an ERC20 Smart Contract on the Stabilityprot
 
 - Basic knowledge of programming, blockchain, and TypeScript.
 - Node.js and NPM installed on your system.
-- An Api Key with available transactions. For this, you can check the section [TRANSACTIONS](./../users/using_stability/transactions.md)
 - A text editor or IDE for development.
 
 ### More Information
 
 The complete code of this tutorial can be found at this [link](https://github.com/stabilityprotocol/tutorials/tree/main/deploy-using-hardhat)
 
-## 2. Setting Up the Development Environment
+## 2. Get an Api Key
+
+In stability, we have created a system where transactions don’t require gas. Instead, our users need to have an API key that identifies them. To get your first API key, you need to visit this website: [link](https://account.stabilityprotocol.com/zgt)
+
+When you visit this website, you will see something similar to this:
+![Api Key Portal](api_keys_1.png)
+
+You need to choose a login method. You can use a conventional login like email or GitHub, or if you prefer, a more blockchain-oriented login like MetaMask. The choice is yours.
+
+Once you are logged in, click on the 'Create New' button. After this, an API key will appear in the table.
+
+Now, you have an API Key completely ready for use.
+
+## 3. Setting Up the Development Environment
 
 ### Installation of Node.js and NPM
 
 Make sure you have Node.js and NPM. You can download them from [Node.js](https://nodejs.org/).
 
-## 3. Creation and Configuration of the ERC20 Project
+## 4. Creation and Configuration of the ERC20 Project
 
 ### Initializing the Project with Hardhat
 
@@ -66,11 +78,11 @@ contract MyERC20 is ERC20 {
 }
 ```
 
-## 4. Deployment of the Smart Contract on Stabilityprotocol
+## 5. Deployment of the Smart Contract on Stabilityprotocol
 
 ### Configuration of the hardhat.config.ts File
 
-Edit `hardhat.config.ts` to include the Stabilityprotocol network. Replace `YOUR_STABILITY_RPC_URL` with the provided RPC URL and `YOUR_PRIVATE_KEY` with your private key (ensure not to share your private key with anyone):
+Edit `hardhat.config.ts` to include the Stabilityprotocol network. Replace `YOUR_API_KEY` with the api key obtained in step 2
 
 ```ts
 import { HardhatUserConfig } from "hardhat/config";
@@ -79,8 +91,10 @@ const config: HardhatUserConfig = {
   solidity: "0.8.20",
   networks: {
     stabilityprotocol: {
-      url: "YOUR_STABILITY_RPC_URL",
-      accounts: ["YOUR_PRIVATE_KEY"],
+      url: "https://free.stble.io?api_key={YOUR_API_KEY}",
+      accounts: [
+        "f64a9d6c862031a967d2f062d73e5c2b25370180e4acd51ef510c2c25cbb0682", // Replace this for your private key. This is a random private key for tutorial purposes
+      ],
     },
   },
 };
