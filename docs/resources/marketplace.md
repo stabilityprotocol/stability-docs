@@ -37,7 +37,7 @@ sidebar_position: 1
                 <div class="card-body">
                     <h3>Mintify</h3>
                     <h6>By: StabilityDevs</h6>
-                    <p class="card-text">Gasless NFT minting app</p>
+                    <p class="card-text">Gasless NFT and ERC-20 minting app</p>
                     <a href="https://mintify.stabilityprotocol.com" class="card-link">Launch app</a>
                     <a class="card-text"> | </a>
                     <a href="https://medium.com/stabilitynetwork/mintify-product-demo-for-the-easiest-onboarding-experience-in-blockchain-5754340741a9" class="card-link">Read docs</a>
