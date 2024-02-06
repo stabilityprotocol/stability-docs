@@ -7,6 +7,58 @@ sidebar_position: 5
 A precompiled contract is a piece of native Substrate code with an Ethereum-style address, callable through the Ethereum API like any regular smart contract.
 These precompiles enable direct calls to the Substrate runtime, a feature typically inaccessible from the Ethereum perspective within Stability.
 
+## Stability native
+
+In Stability, we have developed a set of precompiles to facilitate interaction from the EVM side with the custom features of the Stability blockchain
+
+### SupportedTokensManager
+
+Address: `0x0000000000000000000000000000000000000801`
+
+Link to code: [here](https://github.com/stabilityprotocol/stability/blob/main/precompiles/token-fee-controller/supported-tokens-manager/SupportedTokensManager.sol)
+
+A precompile that enables Stability administration to manage the various permitted tokens
+
+### ValidatorFeeManager
+
+Address: `0x0000000000000000000000000000000000000802`
+
+Link to code: [here](https://github.com/stabilityprotocol/stability/blob/main/precompiles/token-fee-controller/validator-fee-selector/ValidatorFeeTokenSelector.sol)
+
+A precompile that allows validators to manage their accepted tokens and their conversion rate controllers
+
+### FeeToken
+
+Address: `0x0000000000000000000000000000000000000803`
+
+Link to code: [here](https://github.com/stabilityprotocol/stability/blob/main/precompiles/token-fee-controller/fee-token-selector/FeeTokenSelector.sol)
+
+A precompile that allows users to set their fee token
+
+### ValidatorController
+
+Address: `0x0000000000000000000000000000000000000805`
+
+Link to code: [here](https://github.com/stabilityprotocol/stability/blob/main/precompiles/upgrade-runtime-controller/UpgradeRuntimeController.sol)
+
+A precompile that enables Stability administration to manage the validator node set
+
+### UpgradeRuntimeControllerPrecompile
+
+Address: `0x0000000000000000000000000000000000000806`
+
+Link to code: [here](https://github.com/stabilityprotocol/stability/blob/main/precompiles/upgrade-runtime-controller/UpgradeRuntimeController.sol)
+
+A precompile that enables Stability administration to manage runtime upgrades.
+
+### FeeRewardsVaultController
+
+Address: `0x0000000000000000000000000000000000000807`
+
+Link to code: [here](https://github.com/stabilityprotocol/stability/blob/main/precompiles/fee-rewards-vault-controller/FeeRewardsVaultController.sol)
+
+A precompile for Stability users and administration that enables interaction with the BSR (Business Share Revenue) feature
+
 ## Ethereum Native
 
 ### ECRECOVER
@@ -74,55 +126,3 @@ The SHA3FIPS256 precompile implements the SHA-3 family of cryptographic hashes c
 Address: `0x0000000000000000000000000000000000000402`
 
 Similar to ECRecover, but returns the pubkey (not the corresponding Ethereum address)
-
-## Stability native
-
-In Stability, we have developed a set of precompiles to facilitate interaction from the EVM side with the custom features of the Stability blockchain
-
-### SupportedTokensManager
-
-Address: `0x0000000000000000000000000000000000000801`
-
-Link to code: [here](https://github.com/stabilityprotocol/stability/tree/main/precompiles/token-fee-controller/supported-tokens-manager)
-
-A precompile that enables Stability administration to manage the various permitted tokens
-
-### ValidatorFeeManager
-
-Address: `0x0000000000000000000000000000000000000802`
-
-Link to code: [here](https://github.com/stabilityprotocol/stability/tree/main/precompiles/token-fee-controller/validator-fee-selector)
-
-A precompile that allows validators to manage their accepted tokens and their conversion rate controllers
-
-### FeeToken
-
-Address: `0x0000000000000000000000000000000000000803`
-
-Link to code: [here](https://github.com/stabilityprotocol/stability/tree/main/precompiles/token-fee-controller/fee-token-selector)
-
-A precompile that allows users to set their fee token
-
-### ValidatorController
-
-Address: `0x0000000000000000000000000000000000000805`
-
-Link to code: [here](https://github.com/stabilityprotocol/stability/tree/main/precompiles/validator-controller)
-
-A precompile that enables Stability administration to manage the validator node set
-
-### UpgradeRuntimeControllerPrecompile
-
-Address: `0x0000000000000000000000000000000000000806`
-
-Link to code: [here](https://github.com/stabilityprotocol/stability/tree/main/precompiles/upgrade-runtime-controller)
-
-A precompile that enables Stability administration to manage runtime upgrades.
-
-### FeeRewardsVaultController
-
-Address: `0x0000000000000000000000000000000000000807`
-
-Link to code: [here](https://github.com/stabilityprotocol/stability/tree/main/precompiles/fee-rewards-vault-controller)
-
-A precompile for Stability users and administration that enables interaction with the BSR (Business Share Revenue) feature
