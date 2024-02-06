@@ -1,52 +1,34 @@
 ---
 sidebar_position: 8
 ---
+
 # Nodes
-Node Types, Node Keys, and Running Nodes
 
-Nodes are network stakeholders that run the protocol software responsible for maintaining a distributed ledger and serves as a communication hub.
+Stability is a blockchain, and like every blockchain, it comprises a set of nodes. A node is a computer that runs Stability software and connects to one or more other Stability nodes. These nodes are synchronized with the Stability blockchain, meaning they receive new blocks and execute them to maintain the most recent state.
 
-![Flow](../../static/img/blockchain_flow.png)  
+Nodes provide a RPC (Remote Procedure Call) API, allowing users to interact with the blockchain. This interaction includes querying fields in smart contracts, sending transactions, and more.
 
+## Validator types
 
-## Node Types
+### Validator Nodes
 
-There are two main node types on the Stability blockchain, below you will find details about each:
+Not all nodes serve the same purpose. Some, in addition to being connected and synced, function as validator nodes. Their role is to propose blocks periodically.
 
-**Full Nodes (FNs)** contain the last 256 blocks, has read only access to data
+To propose a block, a validator node selects a set of transactions from the mempool and the zero gas transaction pool, executes them in a specific order, and forwards the result to the network.
 
-**Validator Nodes (VNs)** contain the last 256 blocks, run distributed consensus to execute and store transactions on the blockchain and communicate directly with other nodes, and are used to state sync with other nodes
+#### Validator Keys
 
-**Archive Nodes (ANs)** contain all blocks, beginning from the first block in the blockchains history, and are used to state sync with other nodes
+A validator node must sign the block it proposes. This is essential as it allows other validators to verify that the block was proposed by the designated validator. Validator nodes also sign finalized blocks, adhering to the GRANDPA (GHOST-based Recursive ANcestor Deriving Prefix Agreement) mechanism. Finalizing a block means that the node will not accept any new blocks prior to the finalized one.
 
-## Node Keys
-Stability nodes use 2 keys to operate:
-- ECDSA for Aura (Stability's consensus mechanism)
-- ED25519 for Grandpa (Stability's finality mechanism)
+### RPC Nodes
 
-We recommend generating a single SEED for these keys, using it to produce the necessary keys.
+In the Stability blockchain, nodes that are not validators are termed RPC nodes. These nodes are synced and can be used to forward transactions to the blockchain and query data from it. However, they do not propose blocks. Anyone can deploy their own RPC Node and synchronize it with the blockchain.
 
-_To launch a node please visit the **[Validator](../creating_a_validator/)** guides_
+## Network Connectivity
 
-## Hardware Requirements
+The nodes connect using a peer-to-peer (P2P) protocol, specifically through the libp2p framework. Libp2p is a collection of protocols, specifications, and libraries facilitating P2P communication among network participants, also known as peers.
 
-The most common way to run a validator is on a cloud server, such as AWS or GCP, running Linux, such as Ubuntu 22.04.
+P2P networks are decentralized, which means:
 
-### CPU
-- x86-64 compatible
-- Intel Ice Lake, or newer (Xeon or Core series); AMD Zen3, or newer (EPYC or Ryzen)
-- 4 physical cores @ 3.4GHz
-- Simultaneous multithreading disabled (Hyper-Threading on Intel, SMT on AMD)
-- Recommend single-threaded performance over higher cores count. A comparison of single-threaded performance can be found here.
-  
-### Storage
-- NVMe SSD of 1 TB
-
-### Memory
-- 32 GB DDR4 ECC
-
-### System
-- Linux Kernel 5.16 or newer
-
-### Network
-- minimum symmetric networking speed set to 500 Mbit/s (= 62.5 MB/s)
+- They do not rely on a privileged set of servers that operate differently from their clients, as seen in the traditional client-server model.
+- There is no central server or authority controlling the network, ensuring an egalitarian communication platform.
