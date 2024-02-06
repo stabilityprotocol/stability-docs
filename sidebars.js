@@ -60,7 +60,6 @@ const sidebars = {
         "users/connect",
         "users/using_stability/transactions",
         "users/using_stability/portal",
-        "users/using_stability/block_explorer",
       ],
     },
     {
@@ -114,7 +113,6 @@ const sidebars = {
         "resources/faq",
         "resources/marketplace",
         "resources/contact",
-        "resources/glossary",
       ],
     },
   ],
