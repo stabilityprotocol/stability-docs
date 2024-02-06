@@ -98,6 +98,7 @@ const sidebars = {
         "builders/what_is_different",
         "builders/viem_setup_example",
         "builders/ethers_setup_example",
+        "builders/precompiles",
       ],
     },
     {

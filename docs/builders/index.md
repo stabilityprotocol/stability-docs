@@ -39,4 +39,16 @@ title: "Builders"
          </div>
       </div>
    </div>
+   
+   <div class="row row-cols-1 row-cols-md-3a g-4">
+      <div class="col">
+         <div class="card card-body h-100 d-flex flex-column" >
+            <a href="/builders/precompiles" class="card-title card-link stretched-link">
+               <h3>Precompiles</h3>
+            </a>
+            <p class="card-text">Learn what every precompile does</p>
+         </div>
+      </div>
+   </div>
+
 </div>
