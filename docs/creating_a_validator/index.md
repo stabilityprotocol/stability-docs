@@ -30,4 +30,15 @@ title: "Creating A Validator"
          </div>
       </div>
    </div>
+   <p></p>
+   <div class="row row-cols-1 row-cols-md-3a g-4">
+      <div class="col">
+         <div class="card card-body h-100 d-flex flex-column">
+            <a href="/creating_a_validator/upgrades" class="card-title card-link stretched-link">
+               <h3>Blockchain upgrades</h3>
+            </a>
+            <p class="card-text">Learn how to run keep your node sync to last version</p>
+         </div>
+      </div>
+   </div>
 </div>
