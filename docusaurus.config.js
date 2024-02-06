@@ -112,6 +112,11 @@ module.exports = {
             position: "left",
           },
           {
+            to: "/resources",
+            label: "Resources",
+            position: "left",
+          },
+          {
             to: "/api",
             label: "Public API",
             position: "left",

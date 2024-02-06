@@ -97,6 +97,7 @@ const sidebars = {
         },
         "builders/what_is_different",
         "builders/viem_setup_example",
+        "builders/ethers_setup_example",
       ],
     },
     {
@@ -107,10 +108,11 @@ const sidebars = {
       link: { type: "doc", id: "resources/index" },
       items: [
         "resources/block_explorer",
-        "resources/glossary",
-        "resources/contact",
+        "resources/audits",
         "resources/faq",
         "resources/marketplace",
+        "resources/contact",
+        "resources/glossary",
       ],
     },
   ],
