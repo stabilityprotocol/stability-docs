@@ -14,6 +14,8 @@ We can distinguish two different kind of upgradem, though a certain upgrade coul
 
 Runtime upgrades are a built-in mechanism in Substrate framework so no operation is needed from the validators side. Runtime upgrades ocurr through the `pallet_upgrade_runtime` that is controlled by the `pallet_tech_comitee` that acts as multi-signature system that only grants permission for a runtime upgrade if more than half of tech comittee members allow it. Alternatively, there is also an EVM interface for this purpose though the same requirement is required for approving any runtime upgrade.
 
+For further information about Runtime Upgrades visit [**Substrate docs**](https://docs.substrate.io/maintain/runtime-upgrades/).
+
 ## How keep sync for a Node Upgrade?
 
 Node upgrades need the validators nodes (and RPCs) to do some operations to keep in sync. Every upgrade would generate a docker image [here](https://github.com/stabilityprotocol/stability/pkgs/container/stability) and could be executed following [this tutorial](/creating_a_validator/run_node_using_docker).
