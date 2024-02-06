@@ -8,7 +8,7 @@ Stability blockchain is composed by two major elements:
 
 - **Stability's Blockchain Client:** A Substrate-based blockchain client whose details are furtherly detailed below at [**Blockchain Client**](#blockchain-client).
 
-- **Zero Gas Transactions Pool System:** A custom transaction pool that enables to execute transactions without paying transaction gas instead other billing mechanisms could be implemented.
+- **Zero Gas Transactions Pool System:** A custom transaction pool that enables to execute transactions without paying transaction gas instead other billing mechanisms could be implemented. More details are furtherly detailed below at [**Zero Gas Transaction**](#zero-gas-transaction-zgt)
 
 ## Blockchain Client
 
