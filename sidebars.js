@@ -99,6 +99,7 @@ const sidebars = {
         "builders/viem_setup_example",
         "builders/ethers_setup_example",
         "builders/precompiles",
+        "builders/register_for_api_key",
       ],
     },
     {
