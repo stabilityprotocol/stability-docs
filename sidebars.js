@@ -117,6 +117,11 @@ const sidebars = {
         "resources/contact",
       ],
     },
+    {
+      type: "link",
+      label: "Join our Discord",
+      href: "https://discord.gg/68j2XtTKY9",
+    },
   ],
 };
 
