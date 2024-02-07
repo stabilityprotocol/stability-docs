@@ -52,13 +52,5 @@ title: "Resources"
             <p class="card-text">Contact the  Stability team directly or through social networking applications</p>
          </div>
       </div>
-      <div class="col">
-         <div class="card card-body h-100 d-flex flex-column">
-            <a href="glossary" class="card-title card-link stretched-link">
-               <h3>Glossary</h3>
-            </a>
-            <p class="card-text">Glossary of blockchain or Stability-specific words</p>
-         </div>
-      </div>
    </div>
 </div>
