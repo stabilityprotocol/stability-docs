@@ -2,6 +2,8 @@
 
 In this tutorial, you will learn how to create an API key on Stability's Account Manager.
 
+Why is needed to have an API key for using Stability? Open version of the API is limitted so a certain amount of transactions (sometimes this amount could be zero) for each address. To increase the number of transactions that a certain user can execute we would have to require users to sign up to our **Account Manager** so we prevent malicious users to execute an unlimitted number of transactions.
+
 ## Step 1: Register on Stability's Account Manager
 
 ![Registration Screen](../../static/img/register.png)
