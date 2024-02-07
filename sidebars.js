@@ -48,7 +48,6 @@ const sidebars = {
         "how_it_works/applications",
         "how_it_works/nodes",
         "how_it_works/api",
-        "how_it_works/api_faqs",
       ],
     },
     {

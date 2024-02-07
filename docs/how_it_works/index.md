@@ -45,14 +45,6 @@ title: "How it Works"
                   </div>
               </div>
           </div>
-          <div className="col" style={{ marginBottom: '20px' }}>
-              <div className="card h-100">
-                  <div className="card-body">
-                      <h3 className="card-title"><a href="/how_it_works/api_faqs">ZGT API FAQs</a></h3>
-                      <p className="card-text">Common doubts on how to use ZGT API</p>
-                  </div>
-              </div>
-          </div>
       </div>
   </div>
 
