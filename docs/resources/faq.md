@@ -36,7 +36,7 @@ The transaction status will show as 'Failed'
 
 - What does mean `unknown api_key`?
 
-  This could mean that either have set wrongly your `api_key` or that you haven't signed up correctly your `api_key` in [Stble Portal](portal.stble.io)
+  This could mean that either have set wrongly your `api_key` or that you haven't signed up correctly your `api_key` in [Stble Portal](https://portal.stble.io)
 
 - What does mean `apikey limit exceeded`?
 

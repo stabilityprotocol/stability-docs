@@ -6,4 +6,4 @@ The paid version of the ZGT needs their users to setup an API_KEY through [Stabi
 
 For a full guide on how to setup your API_KEY visit this [tutorial](/builders/register_for_api_key)
 
-Having any issues? Visit [API_KEY FAQs](/resource/faq)
+Having any issues? Visit [API_KEY FAQs](/resources/faq)
