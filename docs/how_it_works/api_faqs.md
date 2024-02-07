@@ -6,7 +6,7 @@ Zero Gas Transactions API is composed by two different components:
 
 - Free Transactions: Allows every user to execute a limitted number of transactions every day.
 
-- Paid Transactions: Allows to execute a larger number of transactions using an API KEY that you could generate at stble [Stble Portal](https://portal.stabilityprotocol.com).
+- Paid Transactions: Allows to execute a larger number of transactions using an API KEY that you could generate at [Stability Portal](https://portal.stabilityprotocol.com).
 
 ## Paid Transactions FAQs
 
@@ -16,7 +16,7 @@ Zero Gas Transactions API is composed by two different components:
 
 - What does mean `unknown api_key`?
 
-  This could mean that either have set wrongly your `api_key` or that you haven't signed up correctly your `api_key` in [Stble Portal](https://portal.stabilityprotocol.com)
+  This could mean that either have set wrongly your `api_key` or that you haven't signed up correctly your `api_key` in [Stability Portal](https://portal.stabilityprotocol.com)
 
 - What does mean `apikey limit exceeded`?
 
