@@ -1,6 +1,6 @@
 # Live Site -
 
-[Live Site](https://docs.stble.io/)
+[Live Site](https://docs.stabilityprotocol.com/)
 
 # Website
 

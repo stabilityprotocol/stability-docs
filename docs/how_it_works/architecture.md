@@ -65,7 +65,7 @@ In Stability, validators have the ability to reserve a segment of the block for 
 
 ### Stability ZGT Pool
 
-Using the ZGT framework of Stability blockchain client, we developed a ZGT pool that is supported by all our validators, enabling the execution of feeless transactions. For using this service, go to [**ZGT Portal Root**](https://portal.stble.io).
+Using the ZGT framework of Stability blockchain client, we developed a ZGT pool that is supported by all our validators, enabling the execution of feeless transactions. For using this service, go to [**ZGT Portal Root**](https://portal.stabilityprotocol.com).
 
 Stability ZGT mempool consists of three main components:
 
