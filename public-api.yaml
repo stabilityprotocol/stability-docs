@@ -24,9 +24,9 @@ paths:
           description: Ethereum address to retrieve the transactions for
           schema:
             type: string
-            pattern: '^0x[a-fA-F0-9]{40}$'
+            pattern: "^0x[a-fA-F0-9]{40}$"
       responses:
-        '200':
+        "200":
           description: A list of free transactions for the given address
           content:
             application/json:
@@ -36,15 +36,59 @@ paths:
                   transactions:
                     type: array
                     items:
-                      $ref: '#/components/schemas/Transaction'
+                      $ref: "#/components/schemas/Transaction"
                   remaining:
                     type: number
-        '400':
+        "400":
           description: Bad request, e.g., if the address is not in the correct format
-        '404':
+        "404":
           description: Address not found
-        '500':
+        "500":
           description: Internal server error
+
+  paid-transactions/keys:
+    get:
+      summary: Retrieve api key details
+      operationId: getApiKeyDetails
+      tags:
+        - Paid Transactions
+      parameters:
+        - in: header
+          name: Authorization
+          schema:
+            type: string
+            format: Bearer ${SupabaseAuthToken}
+          required: true
+      responses:
+        "200":
+          description: Success Retrieving Information
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/ApiKey"
+
+    post:
+      summary: Create api key
+      operationId: createApiKey
+      tags:
+        - Paid Transactions
+      parameters:
+        - in: header
+          name: Authorization
+          schema:
+            type: string
+            format: Bearer ${SupabaseAuthToken}
+          required: true
+      responses:
+        "200":
+          description: Success creating info
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiKey"
+
 components:
   schemas:
     Transaction:
@@ -74,3 +118,17 @@ components:
           type: string
           format: date-time
           description: The timestamp for when the transaction was included in the block
+    ApiKey:
+      type: object
+      properties:
+        api_key:
+          type: string
+        email:
+          type: string
+        created_at:
+          type: string
+        granularity:
+          type: string
+          enum: ["day", "month", "year", "prepaid"]
+        enabled:
+          type: boolean
