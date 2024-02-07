@@ -42,7 +42,7 @@ After following these instructions, you will arrive at a page like this:
 
 In `Network Name`, type `Stability Network`.
 
-In `New RPC URL`, type `https://free.stble.io?api_key={YOUR_API_KEY}`. Remember to replace `YOUR_API_KEY` with the API key you obtained in step 2.
+In `New RPC URL`, type `https://free.stabilityprotocol.com?api_key={YOUR_API_KEY}`. Remember to replace `YOUR_API_KEY` with the API key you obtained in step 2.
 
 In `Chain ID`, type `101010`.
 
