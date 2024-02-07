@@ -48,6 +48,7 @@ const sidebars = {
         "how_it_works/applications",
         "how_it_works/nodes",
         "how_it_works/api",
+        "how_it_works/api_faqs",
       ],
     },
     {
@@ -60,7 +61,6 @@ const sidebars = {
         "users/connect",
         "users/using_stability/transactions",
         "users/using_stability/portal",
-        "users/using_stability/block_explorer",
       ],
     },
     {
@@ -100,6 +100,7 @@ const sidebars = {
         "builders/viem_setup_example",
         "builders/ethers_setup_example",
         "builders/precompiles",
+        "builders/register_for_api_key",
       ],
     },
     {
@@ -114,7 +115,6 @@ const sidebars = {
         "resources/faq",
         "resources/marketplace",
         "resources/contact",
-        "resources/glossary",
       ],
     },
     {

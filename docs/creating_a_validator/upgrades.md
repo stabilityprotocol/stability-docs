@@ -2,7 +2,7 @@
 title: "Node Upgrades"
 ---
 
-Stability blockchain client will be updated within time for enhancing the utility and effiency of the ecosystem. For this reason, there will upgrades of the client that all validators would have to update to.
+Stability blockchain client will be updated within time for enhancing the utility and effiency of the ecosystem. For this reason, there will be upgrades of the client that validators will have to update to.
 
 We can distinguish two different kind of upgradem, though a certain upgrade could include both of them:
 
